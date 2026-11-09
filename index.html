@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muse 声カタログ｜区間試聴テスト</title><style>
+:root{font-family:system-ui,-apple-system,sans-serif;color-scheme:light}body{max-width:760px;margin:0 auto;padding:20px;background:#f7f8fb;color:#182033}h1{font-size:1.5rem}.note{color:#586174;font-size:.9rem}.panel{background:white;border:1px solid #dce1ea;border-radius:12px;padding:16px;margin:16px 0}#player{width:100%;aspect-ratio:16/9;min-height:200px}button{padding:12px 16px;margin:4px;border:1px solid #9ca9bd;border-radius:9px;background:white;cursor:pointer;font-size:1rem}button:focus-visible{outline:3px solid #2563eb}.primary{background:#175cd3;color:white;border-color:#175cd3}label{display:inline-flex;flex-direction:column;gap:5px;margin:5px}input{font:inherit;width:110px;padding:8px;border:1px solid #9ca9bd;border-radius:6px}#status{min-height:1.5em}small{color:#586174}</style></head><body>
+<h1>Muse 声カタログ｜区間試聴テスト</h1>
+<p class="note">動画 EMRwKJO0fRM の指定区間を公式YouTubeプレーヤーで再生します。下記の時刻は検証用の仮値で、実際の声の位置ではありません。</p>
+<section class="panel"><div id="player"></div><p id="status" role="status">YouTubeプレーヤーを準備しています…</p><button id="stop">停止</button></section>
+<section class="panel"><h2>サンプル区間</h2><div id="samples"></div></section>
+<section class="panel"><h2>任意の区間を試す</h2><label>開始（秒）<input id="start" type="number" min="0" step="0.1" value="10"></label><label>終了（秒）<input id="end" type="number" min="0" step="0.1" value="16"></label><p><button class="primary" id="play">この区間を再生</button></p></section>
+<p class="note">YouTubeの埋め込み許可・広告・端末側の再生制限によって動作が変わります。プレーヤーを隠した音声専用再生は行いません。</p>
+<script>
+const VIDEO_ID='EMRwKJO0fRM';let player=null,ready=false;const status=document.getElementById('status');
+function message(s){status.textContent=s}
+function playSegment(a,b){a=Number(a);b=Number(b);if(!Number.isFinite(a)||!Number.isFinite(b)||a<0||b<=a){message('終了秒は開始秒より大きく指定してください');return}if(!ready){message('プレーヤー準備中です。少し待って再試行してください');return}try{player.loadVideoById({videoId:VIDEO_ID,startSeconds:a,endSeconds:b});message('再生区間 '+a+'〜'+b+' 秒（'+(b-a).toFixed(1)+'秒間）')}catch(e){message('再生エラー: '+e.message)}}
+const samples=[['サンプル A',0,6],['サンプル B',10,16],['サンプル C',30,36]];
+for(const [name,a,b] of samples){const btn=document.createElement('button');btn.textContent=name+'（'+a+'〜'+b+'秒）';btn.addEventListener('click',()=>playSegment(a,b));document.getElementById('samples').append(btn)}
+document.getElementById('play').addEventListener('click',()=>playSegment(document.getElementById('start').value,document.getElementById('end').value));
+document.getElementById('stop').addEventListener('click',()=>{if(ready){player.stopVideo();message('停止しました')}});
+window.onYouTubeIframeAPIReady=()=>{player=new YT.Player('player',{width:640,height:360,videoId:VIDEO_ID,playerVars:{playsinline:1,enablejsapi:1,origin:location.origin},events:{onReady:()=>{ready=true;message('準備完了。区間を選んでください')},onError:e=>message('YouTubeエラー '+e.data+'。埋め込み許可やRefererを確認してください'),onStateChange:e=>{if(e.data===YT.PlayerState.ENDED)message('指定区間の再生が終了しました')}}})};
+const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';document.head.append(script);
+</script></body></html>
