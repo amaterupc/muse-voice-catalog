@@ -5,6 +5,14 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Muse 声カタログ（全1,202声）｜区間試聴</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-WC9H4XSJL7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-WC9H4XSJL7');
+</script>
 <style>
 :root{font-family:system-ui,-apple-system,sans-serif;color-scheme:light}
 *{box-sizing:border-box}
@@ -214,6 +222,9 @@ function showPlayerButtons(show) {
   el('ytopen').hidden = !show;
 }
 function playVoice(v) {
+  if (typeof gtag === 'function') {
+    gtag('event', 'voice_play', { voice_id: v.id, voice_name: v.name, voice_num: v.num, accent: v.accent, gender: v.gender, age_group: v.ageGroup });
+  }
   current = v;
   el('now').textContent = '#' + v.num + ' ' + v.name + '（' + v.kana + '） ' + v.id;
   el('ytopen').href = 'https://youtu.be/' + VIDEO_ID + '?t=' + Math.floor(v.seg[0]);
@@ -239,6 +250,7 @@ el('list').addEventListener('click', e => {
   const idBtn = e.target.closest('.idcopy');
   if (idBtn) {
     const id = idBtn.dataset.id;
+    if (typeof gtag === 'function') gtag('event', 'voice_id_copy', { voice_id: id });
     if (navigator.clipboard && navigator.clipboard.writeText) {
       navigator.clipboard.writeText(id).then(() => setStatus('声IDをコピーしました: ' + id)).catch(() => setStatus('コピーに失敗しました'));
     }
