@@ -71,6 +71,14 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 28px;color:#586174;font-siz
     </select>
     <select id="f-accent"><option value="">アクセント：すべて</option></select>
     <select id="f-tone"><option value="">トーン：すべて</option></select>
+    <select id="f-age">
+      <option value="">年代：すべて</option>
+      <option value="young">若い</option>
+      <option value="adult">成人</option>
+      <option value="middle">中年</option>
+      <option value="older">年配</option>
+      <option value="unknown">年代不明</option>
+    </select>
     <select id="f-sort">
       <option value="num">番号順</option>
       <option value="rating">評価が高い順</option>
@@ -96,6 +104,17 @@ function setStatus(s) { status.textContent = s; }
 function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); }
 function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 function genderLabel(g) { return g === 'M' ? '男性' : g === 'F' ? '女性' : 'その他'; }
+const AGE_LABELS = { young: '若い', adult: '成人', middle: '中年', older: '年配', unknown: '年代不明' };
+function ageGroupOf(longDesc) {
+  const m = /\(([^)]*)\)\s*$/.exec(longDesc || '');
+  if (!m) return 'unknown';
+  const last = m[1].split(',').pop().trim().toLowerCase();
+  if (last.startsWith('young') || last === 'childlike') return 'young';
+  if (last === 'adult') return 'adult';
+  if (last.startsWith('middle')) return 'middle';
+  if (last === 'older' || last === 'old' || last === 'elderly') return 'older';
+  return 'unknown';
+}
 
 async function loadData() {
   try {
@@ -105,7 +124,7 @@ async function loadData() {
       fetch('names_kana.json').then(r => r.json())
     ]);
     const SEG = s.segments || {};
-    VOICES = v.map((x, i) => ({ ...x, num: i + 1, kana: (k[x.id] || {}).kana || '', seg: SEG[x.id] || null }));
+    VOICES = v.map((x, i) => ({ ...x, num: i + 1, kana: (k[x.id] || {}).kana || '', seg: SEG[x.id] || null, ageGroup: ageGroupOf(x.long_description) }));
     buildFilters();
     render();
   } catch (e) {
@@ -122,14 +141,15 @@ function buildFilters() {
 
 function getFiltered() {
   const q = el('q').value.trim().toLowerCase();
-  const g = el('f-gender').value, a = el('f-accent').value, t = el('f-tone').value;
+  const g = el('f-gender').value, a = el('f-accent').value, t = el('f-tone').value, ag = el('f-age').value;
   let list = VOICES.filter(v => {
     if (g && v.gender !== g) return false;
     if (a && v.accent !== a) return false;
     if (t && v.tone !== t) return false;
+    if (ag && v.ageGroup !== ag) return false;
     if (jpOnly && v.accent !== 'Japanese') return false;
     if (q) {
-      const hay = (v.name + ' ' + v.kana + ' ' + v.description + ' ' + (v.long_description || '') + ' ' + v.id).toLowerCase();
+      const hay = (v.name + ' ' + v.kana + ' ' + v.description + ' ' + (v.long_description || '') + ' ' + AGE_LABELS[v.ageGroup] + ' ' + v.id).toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -153,7 +173,7 @@ function render() {
     return '<article class="card">'
       + '<div class="chead"><span class="num">#' + v.num + ' / ' + VOICES.length + '</span>' + badge + '</div>'
       + '<h3>' + esc(v.name) + ' <span class="kana">' + esc(v.kana) + '</span></h3>'
-      + '<div class="meta">' + genderLabel(v.gender) + ' / ' + esc(v.accent) + ' / ' + esc(v.tone) + '</div>'
+      + '<div class="meta">' + genderLabel(v.gender) + ' / ' + esc(v.accent) + ' / ' + esc(v.tone) + ' / ' + AGE_LABELS[v.ageGroup] + '</div>'
       + '<p class="desc">' + esc(v.long_description || v.description || '') + '</p>'
       + '<div class="rate">' + rate + '</div>'
       + '<div class="row">' + play + '<span class="seg">' + seg + '</span></div>'
@@ -224,7 +244,7 @@ el('list').addEventListener('click', e => {
     }
   }
 });
-['q', 'f-gender', 'f-accent', 'f-tone', 'f-sort'].forEach(id => {
+['q', 'f-gender', 'f-accent', 'f-tone', 'f-age', 'f-sort'].forEach(id => {
   el(id).addEventListener('input', render);
   el(id).addEventListener('change', render);
 });
