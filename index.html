@@ -1,20 +1,272 @@
 <!doctype html>
-<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Muse 声カタログ｜区間試聴テスト</title><style>
-:root{font-family:system-ui,-apple-system,sans-serif;color-scheme:light}body{max-width:760px;margin:0 auto;padding:20px;background:#f7f8fb;color:#182033}h1{font-size:1.5rem}.note{color:#586174;font-size:.9rem}.panel{background:white;border:1px solid #dce1ea;border-radius:12px;padding:16px;margin:16px 0}#player{width:100%;aspect-ratio:16/9;min-height:200px}button{padding:12px 16px;margin:4px;border:1px solid #9ca9bd;border-radius:9px;background:white;cursor:pointer;font-size:1rem}button:focus-visible{outline:3px solid #2563eb}.primary{background:#175cd3;color:white;border-color:#175cd3}label{display:inline-flex;flex-direction:column;gap:5px;margin:5px}input{font:inherit;width:110px;padding:8px;border:1px solid #9ca9bd;border-radius:6px}#status{min-height:1.5em}small{color:#586174}</style></head><body>
-<h1>Muse 声カタログ｜区間試聴テスト</h1>
-<p class="note">動画 EMRwKJO0fRM の指定区間を公式YouTubeプレーヤーで再生します。下記の時刻は検証用の仮値で、実際の声の位置ではありません。</p>
-<section class="panel"><div id="player"></div><p id="status" role="status">YouTubeプレーヤーを準備しています…</p><button id="stop">停止</button></section>
-<section class="panel"><h2>サンプル区間</h2><div id="samples"></div></section>
-<section class="panel"><h2>任意の区間を試す</h2><label>開始（秒）<input id="start" type="number" min="0" step="0.1" value="10"></label><label>終了（秒）<input id="end" type="number" min="0" step="0.1" value="16"></label><p><button class="primary" id="play">この区間を再生</button></p></section>
-<p class="note">YouTubeの埋め込み許可・広告・端末側の再生制限によって動作が変わります。プレーヤーを隠した音声専用再生は行いません。</p>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Muse 声カタログ（全1,202声）｜区間試聴</title>
+<style>
+:root{font-family:system-ui,-apple-system,sans-serif;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#f7f8fb;color:#182033}
+.playerbar{position:sticky;top:0;z-index:10;display:flex;gap:12px;align-items:flex-start;background:rgba(255,255,255,.96);border-bottom:1px solid #dce1ea;padding:10px 14px}
+.playerwrap{width:min(300px,44vw);flex:none}
+.playerwrap .frame{position:relative;width:100%;aspect-ratio:16/9;background:#000;border-radius:8px;overflow:hidden}
+.playerwrap iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.pinfo{flex:1;min-width:0}
+#now{font-weight:600;font-size:.95rem;word-break:break-all}
+#status{color:#586174;font-size:.85rem;min-height:1.4em;margin-top:2px}
+.pbtns{margin-top:6px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+button{padding:9px 14px;border:1px solid #9ca9bd;border-radius:9px;background:white;cursor:pointer;font-size:.95rem}
+button:focus-visible,a:focus-visible{outline:3px solid #2563eb}
+.primary{background:#175cd3;color:white;border-color:#175cd3}
+#ytopen{font-size:.9rem;color:#175cd3}
+main{max-width:1100px;margin:0 auto;padding:16px}
+h1{font-size:1.4rem;margin:8px 0}
+.note{color:#586174;font-size:.9rem}
+.controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin:14px 0}
+.controls input[type=search]{flex:1;min-width:200px;padding:10px;border:1px solid #9ca9bd;border-radius:8px;font:inherit}
+.controls select{padding:10px;border:1px solid #9ca9bd;border-radius:8px;font:inherit;background:white}
+#count{color:#586174;font-size:.9rem}
+#list{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:12px}
+.card{background:white;border:1px solid #dce1ea;border-radius:12px;padding:14px;display:flex;flex-direction:column;gap:6px}
+.chead{display:flex;justify-content:space-between;align-items:center}
+.num{color:#586174;font-size:.8rem}
+.badge{background:#fdf2e3;color:#8a5a00;border:1px solid #e8c98a;border-radius:999px;padding:2px 8px;font-size:.72rem}
+.card h3{margin:0;font-size:1.05rem}
+.kana{color:#586174;font-weight:400;font-size:.9rem}
+.meta{font-size:.85rem;color:#38435a}
+.desc{font-size:.85rem;color:#586174;margin:0}
+.row{display:flex;gap:10px;align-items:center;margin-top:4px}
+.seg{font-size:.85rem;color:#38435a}
+.rate{font-size:.8rem;color:#586174}
+.idcopy{margin-top:auto;font-family:ui-monospace,monospace;font-size:.72rem;word-break:break-all;text-align:left;padding:8px;background:#f2f4f8}
+#empty{color:#586174;padding:24px 0}
+footer{max-width:1100px;margin:0 auto;padding:0 16px 28px;color:#586174;font-size:.82rem}
+</style>
+</head>
+<body>
+<header class="playerbar">
+  <div class="playerwrap"><div class="frame"><div id="player"></div></div></div>
+  <div class="pinfo">
+    <div id="now">声を選んで「▶ 試聴」を押してください</div>
+    <div id="status" role="status">プレーヤーを準備しています…</div>
+    <div class="pbtns">
+      <button id="unmute" type="button" hidden>音を出す</button>
+      <button id="stop" type="button" hidden>停止</button>
+      <a id="ytopen" href="#" target="_blank" rel="noopener" hidden>YouTubeで開く</a>
+    </div>
+  </div>
+</header>
+<main>
+  <h1>Muse 声カタログ（全1,202声）</h1>
+  <p class="note">各声のサンプルを、1本のYouTube動画（限定公開）の区間再生で試聴できます。サンプル文：「私は○○です。とろけるようなひとときを、私の声でお届けできたらうれしいです。」声IDをタップするとコピーできます。</p>
+  <section class="controls">
+    <input id="q" type="search" placeholder="名前・カタカナ・説明・声IDで検索">
+    <select id="f-gender">
+      <option value="">性別：すべて</option>
+      <option value="M">男性</option>
+      <option value="F">女性</option>
+      <option value="N">その他</option>
+    </select>
+    <select id="f-accent"><option value="">アクセント：すべて</option></select>
+    <select id="f-tone"><option value="">トーン：すべて</option></select>
+    <select id="f-sort">
+      <option value="num">番号順</option>
+      <option value="rating">評価が高い順</option>
+      <option value="name">名前順</option>
+    </select>
+    <button id="jp-btn" type="button">日本語アクセントのみ</button>
+    <span id="count"></span>
+  </section>
+  <div id="list"></div>
+  <div id="empty" hidden>条件に合う声がありません。</div>
+</main>
+<footer>音声はAI音声合成で生成しています。再生できない場合は、プレーヤーのミュート解除と端末の消音モードをご確認ください。</footer>
 <script>
-const VIDEO_ID='EMRwKJO0fRM';let player=null,ready=false;const status=document.getElementById('status');
-function message(s){status.textContent=s}
-function playSegment(a,b){a=Number(a);b=Number(b);if(!Number.isFinite(a)||!Number.isFinite(b)||a<0||b<=a){message('終了秒は開始秒より大きく指定してください');return}if(!ready){message('プレーヤー準備中です。少し待って再試行してください');return}try{player.loadVideoById({videoId:VIDEO_ID,startSeconds:a,endSeconds:b});message('再生区間 '+a+'〜'+b+' 秒（'+(b-a).toFixed(1)+'秒間）')}catch(e){message('再生エラー: '+e.message)}}
-const samples=[['サンプル A',0,6],['サンプル B',10,16],['サンプル C',30,36]];
-for(const [name,a,b] of samples){const btn=document.createElement('button');btn.textContent=name+'（'+a+'〜'+b+'秒）';btn.addEventListener('click',()=>playSegment(a,b));document.getElementById('samples').append(btn)}
-document.getElementById('play').addEventListener('click',()=>playSegment(document.getElementById('start').value,document.getElementById('end').value));
-document.getElementById('stop').addEventListener('click',()=>{if(ready){player.stopVideo();message('停止しました')}});
-window.onYouTubeIframeAPIReady=()=>{player=new YT.Player('player',{width:640,height:360,videoId:VIDEO_ID,playerVars:{playsinline:1,enablejsapi:1,origin:location.origin},events:{onReady:()=>{ready=true;message('準備完了。区間を選んでください')},onError:e=>message('YouTubeエラー '+e.data+'。埋め込み許可やRefererを確認してください'),onStateChange:e=>{if(e.data===YT.PlayerState.ENDED)message('指定区間の再生が終了しました')}}})};
-const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';document.head.append(script);
-</script></body></html>
+const VIDEO_ID = 'EMRwKJO0fRM';
+const PODCAST = { 'avocado_v2:MAI_01': 'Aria', 'avocado_v2:MAI_03': 'Helio' };
+let VOICES = [];
+let player = null, ready = false, current = null;
+let pollTimer = null, unmuteTimers = [], jpOnly = false;
+
+const el = id => document.getElementById(id);
+const status = el('status');
+function setStatus(s) { status.textContent = s; }
+function fmt(t) { t = Math.max(0, Math.floor(t)); return Math.floor(t / 60) + ':' + String(t % 60).padStart(2, '0'); }
+function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
+function genderLabel(g) { return g === 'M' ? '男性' : g === 'F' ? '女性' : 'その他'; }
+
+async function loadData() {
+  try {
+    const [v, s, k] = await Promise.all([
+      fetch('voices.json').then(r => r.json()),
+      fetch('segments.json').then(r => r.json()),
+      fetch('names_kana.json').then(r => r.json())
+    ]);
+    const SEG = s.segments || {};
+    VOICES = v.map((x, i) => ({ ...x, num: i + 1, kana: (k[x.id] || {}).kana || '', seg: SEG[x.id] || null }));
+    buildFilters();
+    render();
+  } catch (e) {
+    setStatus('データの読み込みに失敗しました: ' + e.message);
+  }
+}
+
+function buildFilters() {
+  const accents = [...new Set(VOICES.map(v => v.accent))].sort();
+  const tones = [...new Set(VOICES.map(v => v.tone))].sort();
+  el('f-accent').innerHTML = '<option value="">アクセント：すべて</option>' + accents.map(a => '<option value="' + esc(a) + '">' + esc(a) + '</option>').join('');
+  el('f-tone').innerHTML = '<option value="">トーン：すべて</option>' + tones.map(t => '<option value="' + esc(t) + '">' + esc(t) + '</option>').join('');
+}
+
+function getFiltered() {
+  const q = el('q').value.trim().toLowerCase();
+  const g = el('f-gender').value, a = el('f-accent').value, t = el('f-tone').value;
+  let list = VOICES.filter(v => {
+    if (g && v.gender !== g) return false;
+    if (a && v.accent !== a) return false;
+    if (t && v.tone !== t) return false;
+    if (jpOnly && v.accent !== 'Japanese') return false;
+    if (q) {
+      const hay = (v.name + ' ' + v.kana + ' ' + v.description + ' ' + (v.long_description || '') + ' ' + v.id).toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+  const sort = el('f-sort').value;
+  if (sort === 'rating') list.sort((x, y) => ((y.aesthetics_mean + y.adherence_mean) - (x.aesthetics_mean + x.adherence_mean)) || (x.num - y.num));
+  else if (sort === 'name') list.sort((x, y) => x.name.localeCompare(y.name) || (x.num - y.num));
+  else list.sort((x, y) => x.num - y.num);
+  return list;
+}
+
+function render() {
+  const list = getFiltered();
+  el('count').textContent = list.length + ' 件 / 全' + VOICES.length + '件';
+  el('empty').hidden = list.length > 0;
+  el('list').innerHTML = list.map(v => {
+    const badge = PODCAST[v.id] ? '<span class="badge">🎙 ポッドキャスト使用声（' + PODCAST[v.id] + '）</span>' : '';
+    const seg = v.seg ? fmt(v.seg[0]) + ' – ' + fmt(v.seg[1]) : '区間なし';
+    const play = v.seg ? '<button class="play primary" type="button" data-id="' + esc(v.id) + '">▶ 試聴</button>' : '';
+    const rate = '評価 美しさ ' + v.aesthetics_mean + ' / 再現度 ' + v.adherence_mean;
+    return '<article class="card">'
+      + '<div class="chead"><span class="num">#' + v.num + ' / ' + VOICES.length + '</span>' + badge + '</div>'
+      + '<h3>' + esc(v.name) + ' <span class="kana">' + esc(v.kana) + '</span></h3>'
+      + '<div class="meta">' + genderLabel(v.gender) + ' / ' + esc(v.accent) + ' / ' + esc(v.tone) + '</div>'
+      + '<p class="desc">' + esc(v.long_description || v.description || '') + '</p>'
+      + '<div class="rate">' + rate + '</div>'
+      + '<div class="row">' + play + '<span class="seg">' + seg + '</span></div>'
+      + '<button class="idcopy" type="button" data-id="' + esc(v.id) + '" title="タップでコピー">' + esc(v.id) + ' ⧉</button>'
+      + '</article>';
+  }).join('');
+}
+
+function clearUnmuteTimers() { unmuteTimers.forEach(clearTimeout); unmuteTimers = []; }
+function scheduleUnmute() {
+  clearUnmuteTimers();
+  [0, 400, 1200, 2500].forEach(d => {
+    unmuteTimers.push(setTimeout(() => {
+      try { if (player && player.unMute) { player.unMute(); player.setVolume(100); } } catch (e) {}
+    }, d));
+  });
+}
+function stopPoll() { if (pollTimer) { clearInterval(pollTimer); pollTimer = null; } }
+function startPoll() {
+  stopPoll();
+  pollTimer = setInterval(() => {
+    try {
+      if (current && player && player.getCurrentTime && player.getCurrentTime() >= current.seg[1] - 0.05) {
+        player.pauseVideo();
+        finishSegment();
+      }
+    } catch (e) {}
+  }, 250);
+}
+function finishSegment() {
+  stopPoll();
+  clearUnmuteTimers();
+  if (current) setStatus('再生終了： #' + current.num + ' ' + current.name);
+}
+function showPlayerButtons(show) {
+  el('unmute').hidden = !show;
+  el('stop').hidden = !show;
+  el('ytopen').hidden = !show;
+}
+function playVoice(v) {
+  current = v;
+  el('now').textContent = '#' + v.num + ' ' + v.name + '（' + v.kana + '） ' + v.id;
+  el('ytopen').href = 'https://youtu.be/' + VIDEO_ID + '?t=' + Math.floor(v.seg[0]);
+  showPlayerButtons(true);
+  if (!ready) { setStatus('プレーヤー準備中です。少し待ってからもう一度押してください'); return; }
+  try {
+    player.loadVideoById({ videoId: VIDEO_ID, startSeconds: v.seg[0], endSeconds: v.seg[1] });
+    scheduleUnmute();
+    startPoll();
+    setStatus('再生中： ' + fmt(v.seg[0]) + '〜' + fmt(v.seg[1]) + '（' + (v.seg[1] - v.seg[0]).toFixed(1) + '秒間）');
+  } catch (e) {
+    setStatus('再生エラー: ' + e.message);
+  }
+}
+
+el('list').addEventListener('click', e => {
+  const playBtn = e.target.closest('.play');
+  if (playBtn) {
+    const v = VOICES.find(x => x.id === playBtn.dataset.id);
+    if (v && v.seg) playVoice(v);
+    return;
+  }
+  const idBtn = e.target.closest('.idcopy');
+  if (idBtn) {
+    const id = idBtn.dataset.id;
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(id).then(() => setStatus('声IDをコピーしました: ' + id)).catch(() => setStatus('コピーに失敗しました'));
+    }
+  }
+});
+['q', 'f-gender', 'f-accent', 'f-tone', 'f-sort'].forEach(id => {
+  el(id).addEventListener('input', render);
+  el(id).addEventListener('change', render);
+});
+el('jp-btn').addEventListener('click', () => {
+  jpOnly = !jpOnly;
+  el('jp-btn').textContent = jpOnly ? '日本語アクセントのみ（解除）' : '日本語アクセントのみ';
+  el('jp-btn').classList.toggle('primary', jpOnly);
+  render();
+});
+el('stop').addEventListener('click', () => {
+  stopPoll(); clearUnmuteTimers();
+  try { if (ready) player.stopVideo(); } catch (e) {}
+  current = null;
+  showPlayerButtons(false);
+  el('now').textContent = '声を選んで「▶ 試聴」を押してください';
+  setStatus('停止しました');
+});
+el('unmute').addEventListener('click', () => {
+  try { if (ready) { player.unMute(); player.setVolume(100); player.playVideo(); } } catch (e) {}
+  setStatus('ミュート解除と音量100%を送信しました');
+});
+
+window.onYouTubeIframeAPIReady = () => {
+  player = new YT.Player('player', {
+    width: 640, height: 360, videoId: VIDEO_ID,
+    playerVars: { playsinline: 1, enablejsapi: 1, origin: location.origin },
+    events: {
+      onReady: () => { ready = true; setStatus('準備完了。声の「▶ 試聴」を押してください'); },
+      onError: e => setStatus('YouTubeエラー ' + e.data + '。埋め込み許可やRefererを確認してください'),
+      onStateChange: e => {
+        if (e.data === YT.PlayerState.PLAYING) scheduleUnmute();
+        if (e.data === YT.PlayerState.ENDED) finishSegment();
+      }
+    }
+  });
+};
+setTimeout(() => { if (!ready) setStatus('プレーヤーの準備がタイムアウトしました。通信環境をご確認ください（カタログの検索・閲覧は使えます）'); }, 10000);
+const apiScript = document.createElement('script');
+apiScript.src = 'https://www.youtube.com/iframe_api';
+document.head.append(apiScript);
+
+loadData();
+</script>
+</body>
+</html>

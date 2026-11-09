@@ -1,0 +1,6012 @@
+{
+ "avocado_v2:MAI_01": {
+  "name": "Aria",
+  "kana": "アリア",
+  "missing": []
+ },
+ "avocado_v2:warm_concat_0305": {
+  "name": "Aria Variant 2",
+  "kana": "アリア・ヴェリーアント",
+  "missing": []
+ },
+ "avocado_v2:warm_mai01_en": {
+  "name": "Aria Variant 1",
+  "kana": "アリア・ヴェリーアント",
+  "missing": []
+ },
+ "avocado_v2:warm_short_0305": {
+  "name": "Aria Variant 3",
+  "kana": "アリア・ヴェリーアント",
+  "missing": []
+ },
+ "avocado_v2:MAI_03": {
+  "name": "Helio",
+  "kana": "ヘリオ",
+  "missing": []
+ },
+ "avocado_v2:bud": {
+  "name": "Neighborly Syrup",
+  "kana": "ネイバーリー・サーアプ",
+  "missing": []
+ },
+ "avocado_v2:isabella": {
+  "name": "Soothing Ribbon",
+  "kana": "スージング・リバン",
+  "missing": []
+ },
+ "avocado_v2:magnus": {
+  "name": "Boomy Mountain",
+  "kana": "ブーマイ・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:okeyo": {
+  "name": "Engaging Plum",
+  "kana": "エンゲイジング・プラム",
+  "missing": []
+ },
+ "avocado_v2:paloma": {
+  "name": "Lilting Swing",
+  "kana": "リルトイング・スウィング",
+  "missing": []
+ },
+ "avocado_v2:ronan": {
+  "name": "Fluid Hammock",
+  "kana": "フルーアド・ハマク",
+  "missing": []
+ },
+ "avocado_v2:lumi": {
+  "name": "Bubbly Pompom",
+  "kana": "バブリー・パムパム",
+  "missing": []
+ },
+ "avocado_v2:rumi": {
+  "name": "Cheeky Bubble",
+  "kana": "チーキー・ババル",
+  "missing": []
+ },
+ "avocado_v2:vincent": {
+  "name": "Gruff Brick",
+  "kana": "グラフ・ブリク",
+  "missing": []
+ },
+ "avocado_v2:myrtle": {
+  "name": "Homespun Basket",
+  "kana": "ホウムスパン・バスカト",
+  "missing": []
+ },
+ "avocado_v2:hubert": {
+  "name": "Loud Gravel",
+  "kana": "ラウド・グラヴァル",
+  "missing": []
+ },
+ "avocado_v2:conor": {
+  "name": "Polished Coin",
+  "kana": "パリシュト・コイン",
+  "missing": []
+ },
+ "avocado_v2:miles": {
+  "name": "Satiny Moon",
+  "kana": "サトイニー・ムーン",
+  "missing": []
+ },
+ "avocado_v2:briggs": {
+  "name": "Husky Campfire",
+  "kana": "ハスキー・カムプファイアー",
+  "missing": []
+ },
+ "avocado_v2:chip": {
+  "name": "Warm Pebble",
+  "kana": "ウォルム・ペバル",
+  "missing": []
+ },
+ "avocado_v2:lady_macbeth": {
+  "name": "Coppery Crown",
+  "kana": "カパーイー・クラウン",
+  "missing": []
+ },
+ "avocado_v2:melody": {
+  "name": "Dynamic Sparkler",
+  "kana": "ダイナミク・スパークラー",
+  "missing": []
+ },
+ "avocado_v2:marisol": {
+  "name": "Zippy Cork",
+  "kana": "ジピー・コルク",
+  "missing": []
+ },
+ "avocado_v2:atlas": {
+  "name": "Burnished Trophy",
+  "kana": "バーニシュト・トロウフィー",
+  "missing": []
+ },
+ "avocado_v2:casper": {
+  "name": "Confident Trumpet",
+  "kana": "カンファダント・トラムパト",
+  "missing": []
+ },
+ "avocado_v2:casper_1_1x": {
+  "name": "Confident Chime 1_1x",
+  "kana": "カンファダント・チャイム・エクス",
+  "missing": []
+ },
+ "avocado_v2:casper_1_2x": {
+  "name": "Confident Chime 1_2x",
+  "kana": "カンファダント・チャイム・エクス",
+  "missing": []
+ },
+ "avocado_v2:casper_1_25x": {
+  "name": "Confident Chime 1_25x",
+  "kana": "カンファダント・チャイム・エクス",
+  "missing": []
+ },
+ "avocado_v2:casper_1_5x": {
+  "name": "Confident Chime 1_5x",
+  "kana": "カンファダント・チャイム・エクス",
+  "missing": []
+ },
+ "avocado_v2:ElvenWizard": {
+  "name": "Ethereal Star",
+  "kana": "イシリーアル・スタル",
+  "missing": []
+ },
+ "avocado_v2:TruthTeller": {
+  "name": "Wise Lighthouse",
+  "kana": "ワイズ・ライトハウス",
+  "missing": []
+ },
+ "avocado_v2:NoSugar": {
+  "name": "Calm Bridge",
+  "kana": "カム・ブリジ",
+  "missing": []
+ },
+ "avocado_v2:Karen": {
+  "name": "Regal Icicle",
+  "kana": "リーガル・アイシカル",
+  "missing": []
+ },
+ "avocado_v2:Vanessa": {
+  "name": "Cheerful Sunflower",
+  "kana": "チルファル・サンフラウアー",
+  "missing": []
+ },
+ "avocado_v2:Lily": {
+  "name": "Mellow Saxophone",
+  "kana": "メロウ・サクサフォウン",
+  "missing": []
+ },
+ "avocado_v2:Twenty": {
+  "name": "Bold Flag",
+  "kana": "ボウルド・フラグ",
+  "missing": []
+ },
+ "avocado_v2:Caitlin": {
+  "name": "Heroic Bugle",
+  "kana": "ヒロウイク・ブユーガル",
+  "missing": []
+ },
+ "avocado_v2:History": {
+  "name": "Learned Globe",
+  "kana": "ラーンド・グロウブ",
+  "missing": []
+ },
+ "avocado_v2:GrowthMindset": {
+  "name": "Encouraging Blossom",
+  "kana": "エンカーイジング・ブラサム",
+  "missing": []
+ },
+ "avocado_v2:Argue": {
+  "name": "Intense Cymbal",
+  "kana": "インテンス・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vdc_5": {
+  "name": "Sunny Apricot",
+  "kana": "サニー・エイプラカト",
+  "missing": []
+ },
+ "avocado_v2:vdc_2561": {
+  "name": "Tender Cushion",
+  "kana": "テンダー・クシャン",
+  "missing": []
+ },
+ "avocado_v2:vdc_2783": {
+  "name": "Spirited Firecracker",
+  "kana": "スピリティド・ファイアークラカー",
+  "missing": []
+ },
+ "avocado_v2:vdc_3944": {
+  "name": "Blustery Gong",
+  "kana": "ブラスターイー・ゴング",
+  "missing": []
+ },
+ "avocado_v2:vdc_5723": {
+  "name": "Solemn Pillar",
+  "kana": "サラム・ピラー",
+  "missing": []
+ },
+ "avocado_v2:vdc_11426": {
+  "name": "Playful Whistle",
+  "kana": "プレイファル・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vdc_11859": {
+  "name": "Giddy Confetti",
+  "kana": "ギディー・カンフェティー",
+  "missing": []
+ },
+ "avocado_v2:vdc_12430": {
+  "name": "Neighborly Gate",
+  "kana": "ネイバーリー・ゲイト",
+  "missing": []
+ },
+ "avocado_v2:vdc_17383": {
+  "name": "Jovial Cello",
+  "kana": "ジョウヴィーアル・チェロウ",
+  "missing": []
+ },
+ "avocado_v2:vdc_22255": {
+  "name": "Rumpled Armchair",
+  "kana": "ラムパルド・アルムチェル",
+  "missing": []
+ },
+ "avocado_v2:vdc_31875": {
+  "name": "Wry Noodle",
+  "kana": "ライ・ヌーダル",
+  "missing": []
+ },
+ "avocado_v2:vdc_36345": {
+  "name": "Kindly Glove",
+  "kana": "カインドリー・グラヴ",
+  "missing": []
+ },
+ "avocado_v2:vdc_3756": {
+  "name": "Prudent Seed",
+  "kana": "プルーダント・シード",
+  "missing": []
+ },
+ "avocado_v2:vdc_6534": {
+  "name": "Measured Clock",
+  "kana": "メジャード・クラク",
+  "missing": []
+ },
+ "avocado_v2:vdc_13188": {
+  "name": "Huffy Kettle",
+  "kana": "ハフィー・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vdc_13210": {
+  "name": "Grumpy Cloud",
+  "kana": "グラムピー・クラウド",
+  "missing": []
+ },
+ "avocado_v2:vdc_13453": {
+  "name": "Steady Blanket",
+  "kana": "ステディー・ブラングカト",
+  "missing": []
+ },
+ "avocado_v2:vdc_13854": {
+  "name": "Teasing Pin",
+  "kana": "ティージング・ピン",
+  "missing": []
+ },
+ "avocado_v2:vdc_14595": {
+  "name": "Thoughtful Boot",
+  "kana": "ソトファル・ブート",
+  "missing": []
+ },
+ "avocado_v2:vdc_16748": {
+  "name": "Breezy Skateboard",
+  "kana": "ブリージー・スケイトボルド",
+  "missing": []
+ },
+ "avocado_v2:vdc_17126": {
+  "name": "Snooty Chalk",
+  "kana": "スヌーティー・チャク",
+  "missing": []
+ },
+ "avocado_v2:vdc_21408": {
+  "name": "Quizzical Doorway",
+  "kana": "クウィザカル・ドルウェイ",
+  "missing": []
+ },
+ "avocado_v2:vdc_23184": {
+  "name": "Chatty Porch",
+  "kana": "チャティー・ポルチ",
+  "missing": []
+ },
+ "avocado_v2:vdc_23566": {
+  "name": "Smooth Handshake",
+  "kana": "スムーズ・ハンドシェイク",
+  "missing": []
+ },
+ "avocado_v2:vdc_24027": {
+  "name": "Decisive Hammer",
+  "kana": "ディサイシヴ・ハマー",
+  "missing": []
+ },
+ "avocado_v2:vdc_24103": {
+  "name": "Gracious Scarf",
+  "kana": "グレイシャス・スカルフ",
+  "missing": []
+ },
+ "avocado_v2:vdc_27524": {
+  "name": "Quick Scissors",
+  "kana": "クウィク・シザーズ",
+  "missing": []
+ },
+ "avocado_v2:vdc_29090": {
+  "name": "Affirming Hearth",
+  "kana": "アファーミング・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vdc_30446": {
+  "name": "Concerned Cushion",
+  "kana": "カンサーンド・クシャン",
+  "missing": []
+ },
+ "avocado_v2:vdc_37945": {
+  "name": "Piqued Gravel",
+  "kana": "ピークト・グラヴァル",
+  "missing": []
+ },
+ "avocado_v2:vdc_45854": {
+  "name": "Paternal Toolbox",
+  "kana": "パターナル・トゥールボクス",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID102": {
+  "name": "Lofty Throne",
+  "kana": "ロフティー・スロウン",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID15": {
+  "name": "Caring Umbrella",
+  "kana": "ケリング・アムブレラ",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID19": {
+  "name": "Surprised Firework",
+  "kana": "サープライズド・ファイルワーク",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID21": {
+  "name": "Practical Map",
+  "kana": "プラクタカル・マプ",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID24": {
+  "name": "Cautious Seashell",
+  "kana": "コシャス・シーシェル",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID25": {
+  "name": "Timid Marshmallow",
+  "kana": "ティミド・マルシュメロウ",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID29": {
+  "name": "Cranky Sandpaper",
+  "kana": "クラングキー・サンドペイパー",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID30": {
+  "name": "Hopeful Kite",
+  "kana": "ホウプファル・カイト",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID36": {
+  "name": "Cozy Booth",
+  "kana": "コウジー・ブース",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID39": {
+  "name": "Curious Ladder",
+  "kana": "クユリーアス・ラダー",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID41": {
+  "name": "Weary Suitcase",
+  "kana": "ウィリー・スートケイス",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID42": {
+  "name": "Skeptical Fence",
+  "kana": "スケプタカル・フェンス",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID43": {
+  "name": "Genial Barrel",
+  "kana": "ジーンヤル・バラル",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID46": {
+  "name": "Loyal Backpack",
+  "kana": "ロイアル・バクパク",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID50": {
+  "name": "Resonant Lantern",
+  "kana": "レザナント・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID55": {
+  "name": "Nervy Eggshell",
+  "kana": "ナーヴィー・エグシェル",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID58": {
+  "name": "Gentle Towel",
+  "kana": "ジェンタル・タウアル",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID59": {
+  "name": "Questioning Candle",
+  "kana": "クウェスチャニング・カンダル",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID60": {
+  "name": "Restless Sailboat",
+  "kana": "レストラス・セイルボウト",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID63": {
+  "name": "Harried Postcard",
+  "kana": "ヘリード・ポウストカルド",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID65": {
+  "name": "Precise Window",
+  "kana": "プリサイス・ウィンドウ",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID66": {
+  "name": "Direct Thorn",
+  "kana": "ダーエクト・ソルン",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID72": {
+  "name": "Nervy Windsock",
+  "kana": "ナーヴィー・ワインドサク",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID87": {
+  "name": "Composed Pendulum",
+  "kana": "カムポウズド・ペンジャラム",
+  "missing": []
+ },
+ "avocado_v2:vdc_676": {
+  "name": "Plainspoken Megaphone",
+  "kana": "プレインスポウカン・メガフォウン",
+  "missing": []
+ },
+ "avocado_v2:vdc_3401": {
+  "name": "Engaged Bench",
+  "kana": "エンゲイジド・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vdc_11866": {
+  "name": "Startled Popcorn",
+  "kana": "スタルタルド・パプコルン",
+  "missing": []
+ },
+ "avocado_v2:vdc_27862": {
+  "name": "Doting Cradle",
+  "kana": "ドウティング・クレイダル",
+  "missing": []
+ },
+ "avocado_v2:vdc_31533": {
+  "name": "Upbeat Buoy",
+  "kana": "アプビート・ブーイー",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID17": {
+  "name": "Enquiring Canoe",
+  "kana": "エンクワイアリング・カヌー",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID18": {
+  "name": "Mischievous Marble",
+  "kana": "ミスチャヴァス・マルバル",
+  "missing": []
+ },
+ "avocado_v2:vdc_NOID26": {
+  "name": "Patient Blueprint",
+  "kana": "ペイシャント・ブループリント",
+  "missing": []
+ },
+ "avocado_v2:Q17": {
+  "name": "Brisk Ink",
+  "kana": "ブリスク・イングク",
+  "missing": []
+ },
+ "avocado_v2:qvd_00052": {
+  "name": "Chipper Tambourine",
+  "kana": "チパー・タムバーイーン",
+  "missing": []
+ },
+ "avocado_v2:qvd_00059": {
+  "name": "Spirited Canyon",
+  "kana": "スピリティド・カンヤン",
+  "missing": []
+ },
+ "avocado_v2:qvd_00173": {
+  "name": "Grand Harp",
+  "kana": "グランド・ハルプ",
+  "missing": []
+ },
+ "avocado_v2:qvd_00203": {
+  "name": "Peppery Flare",
+  "kana": "ペッパリー・フレル",
+  "missing": []
+ },
+ "avocado_v2:qvd_00262": {
+  "name": "Suave Piano",
+  "kana": "スワヴ・ピーアノウ",
+  "missing": []
+ },
+ "avocado_v2:qvd_00325": {
+  "name": "Measured Sundial",
+  "kana": "メジャード・サンダイル",
+  "missing": []
+ },
+ "avocado_v2:qvd_00494": {
+  "name": "Welcoming Scone",
+  "kana": "ウェルカミング・スコウン",
+  "missing": []
+ },
+ "avocado_v2:qvd_00540": {
+  "name": "Lively Cave",
+  "kana": "ライヴリー・ケイヴ",
+  "missing": []
+ },
+ "avocado_v2:qvd_00563": {
+  "name": "Stark Obelisk",
+  "kana": "スタルク・オベリスク",
+  "missing": []
+ },
+ "avocado_v2:qvd_00571": {
+  "name": "Jaunty Moat",
+  "kana": "ジョンティー・モウト",
+  "missing": []
+ },
+ "avocado_v2:qvd_00592": {
+  "name": "Mellow Sail",
+  "kana": "メロウ・セイル",
+  "missing": []
+ },
+ "avocado_v2:qvd_00624": {
+  "name": "Mysterious Candle",
+  "kana": "ミスティリーアス・カンダル",
+  "missing": []
+ },
+ "avocado_v2:qvd_00667": {
+  "name": "Placid River",
+  "kana": "プラサド・リヴァー",
+  "missing": []
+ },
+ "avocado_v2:qvd_00698": {
+  "name": "Trusty Beam",
+  "kana": "トラスティー・ビーム",
+  "missing": []
+ },
+ "avocado_v2:qvd_00827": {
+  "name": "Stoic Thimble",
+  "kana": "ストウイク・シムバル",
+  "missing": []
+ },
+ "avocado_v2:qvd_00887": {
+  "name": "Easygoing Harmonica",
+  "kana": "イージーゴウイング・ハルマニカ",
+  "missing": []
+ },
+ "avocado_v2:qvd_00966": {
+  "name": "Passionate Bonfire",
+  "kana": "パシャナト・バンファイアー",
+  "missing": []
+ },
+ "avocado_v2:qvd_01015": {
+  "name": "Canny Ridge",
+  "kana": "カニー・リジ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01114": {
+  "name": "Suave Grove",
+  "kana": "スワヴ・グロウヴ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01127": {
+  "name": "Level Keystone",
+  "kana": "レヴァル・キーストウン",
+  "missing": []
+ },
+ "avocado_v2:qvd_01163": {
+  "name": "Dapper Cuff",
+  "kana": "ダパー・カフ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01247": {
+  "name": "Kindly Bud",
+  "kana": "カインドリー・バド",
+  "missing": []
+ },
+ "avocado_v2:qvd_01304": {
+  "name": "Worldly Shawl",
+  "kana": "ワールドリー・ショル",
+  "missing": []
+ },
+ "avocado_v2:qvd_01332": {
+  "name": "Hearty Dish",
+  "kana": "ハルティー・ディシュ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01372": {
+  "name": "Serene Bowl",
+  "kana": "サーイーン・ボウル",
+  "missing": []
+ },
+ "avocado_v2:qvd_01376": {
+  "name": "Brooding Boulder",
+  "kana": "ブルーディング・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:qvd_01386": {
+  "name": "Perky Spool",
+  "kana": "パーキー・スプール",
+  "missing": []
+ },
+ "avocado_v2:qvd_01406": {
+  "name": "Nurturing Meadow",
+  "kana": "ナーチャーイング・メドウ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01408": {
+  "name": "Tranquil Saucer",
+  "kana": "トラングクワル・ソサー",
+  "missing": []
+ },
+ "avocado_v2:qvd_01409": {
+  "name": "Plain Tack",
+  "kana": "プレイン・タク",
+  "missing": []
+ },
+ "avocado_v2:qvd_01498": {
+  "name": "Quirky Domino",
+  "kana": "クワーキー・ダマノウ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01522": {
+  "name": "Affable Sled",
+  "kana": "アファバル・スレド",
+  "missing": []
+ },
+ "avocado_v2:qvd_01541": {
+  "name": "Stern Tower",
+  "kana": "スターン・タウアー",
+  "missing": []
+ },
+ "avocado_v2:qvd_01619": {
+  "name": "Friendly Petal",
+  "kana": "フレンドリー・ペタル",
+  "missing": []
+ },
+ "avocado_v2:qvd_01645": {
+  "name": "Gruff Hinge",
+  "kana": "グラフ・ヒンジ",
+  "missing": []
+ },
+ "avocado_v2:qvd_01700": {
+  "name": "Somber Monument",
+  "kana": "サムバー・マンユーマント",
+  "missing": []
+ },
+ "avocado_v2:qvd_01739": {
+  "name": "Nimble Whisk",
+  "kana": "ニムバル・ウィスク",
+  "missing": []
+ },
+ "avocado_v2:qvd_01767": {
+  "name": "Still Pier",
+  "kana": "スティル・ピル",
+  "missing": []
+ },
+ "avocado_v2:qvd_01785": {
+  "name": "Fervent Flute",
+  "kana": "ファーヴァント・フルート",
+  "missing": []
+ },
+ "avocado_v2:qvd_01879": {
+  "name": "Studious Scroll",
+  "kana": "ストゥーディーアス・スクロウル",
+  "missing": []
+ },
+ "avocado_v2:qvd_01937": {
+  "name": "Polite Sprout",
+  "kana": "パライト・スプラウト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02005": {
+  "name": "Mild Bobbin",
+  "kana": "マイルド・ババン",
+  "missing": []
+ },
+ "avocado_v2:qvd_02074": {
+  "name": "Cryptic Tunnel",
+  "kana": "クリプティク・タナル",
+  "missing": []
+ },
+ "avocado_v2:qvd_02123": {
+  "name": "Playful Scooter",
+  "kana": "プレイファル・スクーター",
+  "missing": []
+ },
+ "avocado_v2:qvd_02126": {
+  "name": "Crisp Collar",
+  "kana": "クリスプ・カラー",
+  "missing": []
+ },
+ "avocado_v2:qvd_02166": {
+  "name": "Zesty Clarinet",
+  "kana": "ゼスティ・クレラネト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02220": {
+  "name": "Glad Mug",
+  "kana": "グラド・マグ",
+  "missing": []
+ },
+ "avocado_v2:qvd_02252": {
+  "name": "Sweeping Terrace",
+  "kana": "スウィーピング・テラス",
+  "missing": []
+ },
+ "avocado_v2:qvd_02303": {
+  "name": "Peaceful Quilt",
+  "kana": "ピースファル・クウィルト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02331": {
+  "name": "Seasoned Walnut",
+  "kana": "シーザンド・ウォルナト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02370": {
+  "name": "Whimsical Locket",
+  "kana": "ウィムジカル・ラキト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02390": {
+  "name": "Astute Quill",
+  "kana": "アストゥート・クウィル",
+  "missing": []
+ },
+ "avocado_v2:qvd_02406": {
+  "name": "Weighty Bell",
+  "kana": "ウェイティー・ベル",
+  "missing": []
+ },
+ "avocado_v2:qvd_02415": {
+  "name": "Even Pond",
+  "kana": "イーヴィン・パンド",
+  "missing": []
+ },
+ "avocado_v2:qvd_02430": {
+  "name": "Amiable Oak",
+  "kana": "エイミーアバル・オウク",
+  "missing": []
+ },
+ "avocado_v2:qvd_02681": {
+  "name": "Lopsided Pinecone",
+  "kana": "ラプサイディド・パインコウン",
+  "missing": []
+ },
+ "avocado_v2:qvd_02686": {
+  "name": "Cheery Daffodil",
+  "kana": "チリー・ダファディル",
+  "missing": []
+ },
+ "avocado_v2:qvd_02687": {
+  "name": "Imposing Belfry",
+  "kana": "イムポウジング・ベルフリー",
+  "missing": []
+ },
+ "avocado_v2:qvd_02767": {
+  "name": "Easy Raft",
+  "kana": "イージー・ラフト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02771": {
+  "name": "Placid Dock",
+  "kana": "プラサド・ダク",
+  "missing": []
+ },
+ "avocado_v2:qvd_02779": {
+  "name": "Courteous Cabinet",
+  "kana": "カーティーアス・カバナト",
+  "missing": []
+ },
+ "avocado_v2:qvd_02792": {
+  "name": "Obliging Bookshelf",
+  "kana": "アブライジング・ブクシェルフ",
+  "missing": []
+ },
+ "avocado_v2:qvd_02815": {
+  "name": "Cool Shoelace",
+  "kana": "クール・シューレイス",
+  "missing": []
+ },
+ "avocado_v2:qvd_02823": {
+  "name": "Sprightly Windchime",
+  "kana": "スプライトリー・ウィンドチャイム",
+  "missing": []
+ },
+ "avocado_v2:qvd_02831": {
+  "name": "Kind Mitten",
+  "kana": "カインド・ミタン",
+  "missing": []
+ },
+ "avocado_v2:qvd_02840": {
+  "name": "Shrewd Keel",
+  "kana": "シュルード・キール",
+  "missing": []
+ },
+ "avocado_v2:qvd_02863": {
+  "name": "Bright Sticker",
+  "kana": "ブライト・スティカー",
+  "missing": []
+ },
+ "avocado_v2:qvd_03050": {
+  "name": "Mellow Vine",
+  "kana": "メロウ・ヴァイン",
+  "missing": []
+ },
+ "avocado_v2:qvd_03187": {
+  "name": "Flinty Medal",
+  "kana": "フリンティー・メダル",
+  "missing": []
+ },
+ "avocado_v2:qvd_03218": {
+  "name": "Tidy Ticket",
+  "kana": "タイディー・ティカト",
+  "missing": []
+ },
+ "avocado_v2:qvd_03232": {
+  "name": "Lulling Rug",
+  "kana": "ラリング・ラグ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03257": {
+  "name": "Generous Vase",
+  "kana": "ジェナーアス・ヴェイス",
+  "missing": []
+ },
+ "avocado_v2:qvd_03269": {
+  "name": "Commanding Arch",
+  "kana": "カマンディング・アルチ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03286": {
+  "name": "Wistful Charm",
+  "kana": "ウィストファル・チャルム",
+  "missing": []
+ },
+ "avocado_v2:qvd_03300": {
+  "name": "Enigmatic Berry",
+  "kana": "エニグマティク・ベリー",
+  "missing": []
+ },
+ "avocado_v2:qvd_03311": {
+  "name": "Peculiar Root",
+  "kana": "パクユールヤー・ルート",
+  "missing": []
+ },
+ "avocado_v2:qvd_03323": {
+  "name": "Zany Bauble",
+  "kana": "ゼイニー・ボバル",
+  "missing": []
+ },
+ "avocado_v2:qvd_03373": {
+  "name": "Charged Coil",
+  "kana": "チャルジド・コイル",
+  "missing": []
+ },
+ "avocado_v2:qvd_03450": {
+  "name": "Businesslike Badge",
+  "kana": "ビズニスライク・バジ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03476": {
+  "name": "Moody Archway",
+  "kana": "ムーディー・アルチウェイ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03487": {
+  "name": "Gruff Wrench",
+  "kana": "グラフ・レンチ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03610": {
+  "name": "Quaint Snowglobe",
+  "kana": "クウェイント・スノウグロウブ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03616": {
+  "name": "Austere Cornerstone",
+  "kana": "オースティル・コルナーストウン",
+  "missing": []
+ },
+ "avocado_v2:qvd_03619": {
+  "name": "Soft Husk",
+  "kana": "サフト・ハスク",
+  "missing": []
+ },
+ "avocado_v2:qvd_03627": {
+  "name": "Merry Seesaw",
+  "kana": "メリー・シーソ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03641": {
+  "name": "Cordial Barn",
+  "kana": "コルジャル・バルン",
+  "missing": []
+ },
+ "avocado_v2:qvd_03697": {
+  "name": "Genteel Sleeve",
+  "kana": "ジェンティール・スリーヴ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03716": {
+  "name": "Blithe Ladle",
+  "kana": "ブライズ・レイダル",
+  "missing": []
+ },
+ "avocado_v2:qvd_03723": {
+  "name": "Poised Envelope",
+  "kana": "ポイズド・エンヴァロウプ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03725": {
+  "name": "Pensive Lagoon",
+  "kana": "ペンシヴ・ラグーン",
+  "missing": []
+ },
+ "avocado_v2:qvd_03765": {
+  "name": "Sedate Bolster",
+  "kana": "シデイト・ボウルスター",
+  "missing": []
+ },
+ "avocado_v2:qvd_03766": {
+  "name": "Sweet Plate",
+  "kana": "スウィート・プレイト",
+  "missing": []
+ },
+ "avocado_v2:qvd_03822": {
+  "name": "Firm Stamp",
+  "kana": "ファーム・スタムプ",
+  "missing": []
+ },
+ "avocado_v2:qvd_03858": {
+  "name": "Elegant Pendant",
+  "kana": "エラガント・ペンダント",
+  "missing": []
+ },
+ "avocado_v2:qvd_03955": {
+  "name": "Calming Moss",
+  "kana": "カミング・モス",
+  "missing": []
+ },
+ "avocado_v2:qvd_03965": {
+  "name": "Merry Bandstand",
+  "kana": "メリー・バンドスタンド",
+  "missing": []
+ },
+ "avocado_v2:qvd_03988": {
+  "name": "Debonair Bracelet",
+  "kana": "デバネル・ブレイスラト",
+  "missing": []
+ },
+ "avocado_v2:qvd_04019": {
+  "name": "Sincere Cup",
+  "kana": "シンシル・カプ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04027": {
+  "name": "Buoyant Rattle",
+  "kana": "ボイアント・ラタル",
+  "missing": []
+ },
+ "avocado_v2:qvd_04044": {
+  "name": "Charming Button",
+  "kana": "チャルミング・バタン",
+  "missing": []
+ },
+ "avocado_v2:qvd_04050": {
+  "name": "Patient Nook",
+  "kana": "ペイシャント・ヌク",
+  "missing": []
+ },
+ "avocado_v2:qvd_04055": {
+  "name": "Sociable Bead",
+  "kana": "ソウシャバル・ビード",
+  "missing": []
+ },
+ "avocado_v2:qvd_04066": {
+  "name": "Puckish Ukulele",
+  "kana": "パキシュ・ユーカレイリー",
+  "missing": []
+ },
+ "avocado_v2:qvd_04129": {
+  "name": "Spare Nail",
+  "kana": "スペル・ネイル",
+  "missing": []
+ },
+ "avocado_v2:qvd_04161": {
+  "name": "Steadfast Latch",
+  "kana": "ステドファスト・ラチ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04170": {
+  "name": "Homey Slipper",
+  "kana": "ホウミー・スリパー",
+  "missing": []
+ },
+ "avocado_v2:qvd_04216": {
+  "name": "Hospitable Lamp",
+  "kana": "ハスピタバル・ラムプ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04243": {
+  "name": "Inscrutable Vault",
+  "kana": "インスクルータバル・ヴォルト",
+  "missing": []
+ },
+ "avocado_v2:qvd_04355": {
+  "name": "Ardent Twig",
+  "kana": "アルダント・トウィグ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04433": {
+  "name": "Soothing Hammock",
+  "kana": "スージング・ハマク",
+  "missing": []
+ },
+ "avocado_v2:qvd_04441": {
+  "name": "Playful Trombone",
+  "kana": "プレイファル・トラムボウン",
+  "missing": []
+ },
+ "avocado_v2:qvd_04541": {
+  "name": "Nurturing Pitcher",
+  "kana": "ナーチャーイング・ピチャー",
+  "missing": []
+ },
+ "avocado_v2:qvd_04565": {
+  "name": "Impassive Mallet",
+  "kana": "イムパシヴ・マリト",
+  "missing": []
+ },
+ "avocado_v2:qvd_04570": {
+  "name": "Stately Dome",
+  "kana": "ステイトリー・ドウム",
+  "missing": []
+ },
+ "avocado_v2:qvd_04573": {
+  "name": "Bookish Page",
+  "kana": "ブキシュ・ペイジ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04581": {
+  "name": "Exacting Baton",
+  "kana": "イグザクティング・バタン",
+  "missing": []
+ },
+ "avocado_v2:qvd_04648": {
+  "name": "Offbeat Bobbin",
+  "kana": "オーフビート・ババン",
+  "missing": []
+ },
+ "avocado_v2:qvd_04655": {
+  "name": "Reassuring Parachute",
+  "kana": "リーアシュリング・ペラシュート",
+  "missing": []
+ },
+ "avocado_v2:qvd_04656": {
+  "name": "Charismatic Matchstick",
+  "kana": "ケリズマティク・マチスティク",
+  "missing": []
+ },
+ "avocado_v2:qvd_04660": {
+  "name": "Theatrical Banner",
+  "kana": "シーアトリカル・バナー",
+  "missing": []
+ },
+ "avocado_v2:qvd_04673": {
+  "name": "Dreamy Reef",
+  "kana": "ドリーミー・リーフ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04804": {
+  "name": "Fizzy Bicycle",
+  "kana": "フィジー・バイシカル",
+  "missing": []
+ },
+ "avocado_v2:qvd_04854": {
+  "name": "Ardent Comb",
+  "kana": "アルダント・コウム",
+  "missing": []
+ },
+ "avocado_v2:qvd_04873": {
+  "name": "Restful Harbor",
+  "kana": "レストファル・ハルバー",
+  "missing": []
+ },
+ "avocado_v2:qvd_04911": {
+  "name": "Jocular Tuba",
+  "kana": "ジャクヤラー・トゥーバ",
+  "missing": []
+ },
+ "avocado_v2:qvd_04999": {
+  "name": "Beaming Crate",
+  "kana": "ビーミング・クレイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_brittle_fan": {
+  "name": "Discerning Vase",
+  "kana": "ディサーニング・ヴェイス",
+  "missing": []
+ },
+ "avocado_v2:vd2_quivering_kettle": {
+  "name": "Stony Kettle",
+  "kana": "ストウニー・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_restless_pinwheel": {
+  "name": "Flustered Pinwheel",
+  "kana": "フラスタード・ピンウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_smoky_teacup": {
+  "name": "Questioning Satchel",
+  "kana": "クウェスチャニング・サッチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_sparkling_kite": {
+  "name": "Sparkling Kite",
+  "kana": "スパルクリング・カイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_wistful_hearth": {
+  "name": "Wistful Hearth",
+  "kana": "ウィストファル・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_dry_weathervane": {
+  "name": "Irreverent Weathervane",
+  "kana": "イレヴァーアント・ウェザーヴェイン",
+  "missing": []
+ },
+ "avocado_v2:vd2_jovial_drum": {
+  "name": "Warmhearted Bandstand",
+  "kana": "ウォルムハルタド・バンドスタンド",
+  "missing": []
+ },
+ "avocado_v2:vd2_dry_tambour": {
+  "name": "Dry Tambour",
+  "kana": "ドライ・タムボウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_wandering_hammock": {
+  "name": "Wandering Hammock",
+  "kana": "ワンダーイング・ハマク",
+  "missing": []
+ },
+ "avocado_v2:vd2_firm_sandpaper": {
+  "name": "Grudging Sandpaper",
+  "kana": "グラジング・サンドペイパー",
+  "missing": []
+ },
+ "avocado_v2:vd2_fiery_lantern": {
+  "name": "Animated Cymbal",
+  "kana": "アナメイティド・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_dusky_tambourine": {
+  "name": "Skittish Popcorn",
+  "kana": "スキティシュ・パプコルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_brassy_barrel": {
+  "name": "Boisterous Barrel",
+  "kana": "ボイスターアス・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_chipper_teapot": {
+  "name": "Bustling Teapot",
+  "kana": "バサリング・ティーパト",
+  "missing": []
+ },
+ "avocado_v2:vd2_quirky_basket": {
+  "name": "Tranquil Basket",
+  "kana": "トラングクワル・バスカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_eager_feather": {
+  "name": "Eager Feather",
+  "kana": "イーガー・フェザー",
+  "missing": []
+ },
+ "avocado_v2:vd2_gravelly_plank": {
+  "name": "Gravelly Plank",
+  "kana": "グラヴァリー・プラングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_sunny_paddle": {
+  "name": "Carefree Paddle",
+  "kana": "ケルフリー・パダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_merry_trinket": {
+  "name": "Chirpy Trinket",
+  "kana": "チャーピー・トリングカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_craggy_clover": {
+  "name": "Rousing Bench",
+  "kana": "ラウジング・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_fizzy_bell": {
+  "name": "Giggly Bell",
+  "kana": "ギガリー・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_flinty_needle": {
+  "name": "Keen Flute",
+  "kana": "キーン・フルート",
+  "missing": []
+ },
+ "avocado_v2:vd2_bright_thistle": {
+  "name": "Candid Thistle",
+  "kana": "カンダド・シサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_hopeful_oar": {
+  "name": "Pleased Oar",
+  "kana": "プリーズド・オール",
+  "missing": []
+ },
+ "avocado_v2:vd2_quivering_oak": {
+  "name": "Fretful Oak",
+  "kana": "フレトファル・オウク",
+  "missing": []
+ },
+ "avocado_v2:vd2_brisk_pennant": {
+  "name": "Collected Pennant",
+  "kana": "カレクタド・ペナント",
+  "missing": []
+ },
+ "avocado_v2:vd2_fierce_whistle": {
+  "name": "Protective Gatepost",
+  "kana": "プラテクティヴ・ゲイトポウスト",
+  "missing": []
+ },
+ "avocado_v2:vd2_gentle_balloon": {
+  "name": "Reassuring Balloon",
+  "kana": "リーアシュリング・バルーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_suave_cello": {
+  "name": "Astonished Cello",
+  "kana": "アスタニシュト・チェロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_crisp_reed": {
+  "name": "Pointed Quill",
+  "kana": "ポインティド・クウィル",
+  "missing": []
+ },
+ "avocado_v2:vd2_curious_sandal": {
+  "name": "Pondering Sandal",
+  "kana": "パンダーイング・サンダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_dry_fencepost": {
+  "name": "Sniffy Fencepost",
+  "kana": "スニフィー・フェンスポウスト",
+  "missing": []
+ },
+ "avocado_v2:vd2_grounded_hearth": {
+  "name": "Grounded Hearth",
+  "kana": "グラウンディド・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_baffled_gong": {
+  "name": "Baffled Gong",
+  "kana": "バファルド・ゴング",
+  "missing": []
+ },
+ "avocado_v2:vd2_airy_window": {
+  "name": "Wondering Window",
+  "kana": "ワンダーイング・ウィンドウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_tremulous_porch": {
+  "name": "Concerned Lantern",
+  "kana": "カンサーンド・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vd2_bristly_pinecone": {
+  "name": "Melodramatic Pinecone",
+  "kana": "メラドラマティク・パインコウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_giddy_bubble": {
+  "name": "Giddy Bubble",
+  "kana": "ギディー・ババル",
+  "missing": []
+ },
+ "avocado_v2:vd2_playful_moon": {
+  "name": "Content Moon",
+  "kana": "カンテント・ムーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_cool_drum": {
+  "name": "Affronted Drum",
+  "kana": "アフランティド・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_warm_porthole": {
+  "name": "Sympathetic Porthole",
+  "kana": "シムパセティク・ポルスオウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_zippy_chime": {
+  "name": "Peppy Doorbell",
+  "kana": "ペピー・ドルベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_gleeful_tuba": {
+  "name": "Chortling Tuba",
+  "kana": "チョルタリング・トゥーバ",
+  "missing": []
+ },
+ "avocado_v2:vd2_grand_teakettle": {
+  "name": "Majestic Throne",
+  "kana": "マジェスティク・スロウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_wry_thimble": {
+  "name": "Deadpan Thimble",
+  "kana": "デドパン・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_tender_keepsake": {
+  "name": "Devoted Bowl",
+  "kana": "ディヴォウティド・ボウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_careful_locket": {
+  "name": "Hesitant Locket",
+  "kana": "ヘジタント・ラキト",
+  "missing": []
+ },
+ "avocado_v2:vd2_delighted_gear": {
+  "name": "Delighted Bridge",
+  "kana": "ディライタド・ブリジ",
+  "missing": []
+ },
+ "avocado_v2:vd2_resolute_boulder": {
+  "name": "Plucky Boulder",
+  "kana": "プラキー・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_somber_umbrella": {
+  "name": "Rueful Umbrella",
+  "kana": "ルーファル・アムブレラ",
+  "missing": []
+ },
+ "avocado_v2:vd2_quick_maraca": {
+  "name": "Restive Maraca",
+  "kana": "レスティヴ・マラカ",
+  "missing": []
+ },
+ "avocado_v2:vd2_poised_ripple": {
+  "name": "Collected Ripple",
+  "kana": "カレクタド・リパル",
+  "missing": []
+ },
+ "avocado_v2:vd2_confident_toolbox": {
+  "name": "Assured Toolbox",
+  "kana": "アシュルド・トゥールボクス",
+  "missing": []
+ },
+ "avocado_v2:vd2_playful_bell": {
+  "name": "Easygoing Bell",
+  "kana": "イージーゴウイング・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_tender_beret": {
+  "name": "Adoring Armchair",
+  "kana": "アドリング・アルムチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_watchful_gate": {
+  "name": "Guarded Anchor",
+  "kana": "ガルダド・アングカー",
+  "missing": []
+ },
+ "avocado_v2:vd2_whirling_windchime": {
+  "name": "Breathless Windchime",
+  "kana": "ブレスラス・ウィンドチャイム",
+  "missing": []
+ },
+ "avocado_v2:vd2_wry_boulder": {
+  "name": "Quippy Boulder",
+  "kana": "クイッピー・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_muted_puddle": {
+  "name": "Wary Cellar",
+  "kana": "ウェリー・セラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_tender_moon": {
+  "name": "Cradling Moon",
+  "kana": "クレイダリング・ムーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_brisk_gravel": {
+  "name": "Hasty Gravel",
+  "kana": "ヘイスティー・グラヴァル",
+  "missing": []
+ },
+ "avocado_v2:vd2_awestruck_pebble": {
+  "name": "Awestruck Pebble",
+  "kana": "アストラク・ペバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_wry_bramble": {
+  "name": "Arch Stump",
+  "kana": "アルチ・スタムプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_measured_pendulum": {
+  "name": "Sober Pendulum",
+  "kana": "ソウバー・ペンジャラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_somber_keepsake": {
+  "name": "Melancholy Keepsake",
+  "kana": "メランカリー・キープセイク",
+  "missing": []
+ },
+ "avocado_v2:vd2_silken_tower": {
+  "name": "Pleased Tower",
+  "kana": "プリーズド・タウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_exuberant_chime": {
+  "name": "Bouncy Confetti",
+  "kana": "バウンシー・カンフェティー",
+  "missing": []
+ },
+ "avocado_v2:vd2_coy_buckle": {
+  "name": "Droll Buckle",
+  "kana": "ドロウル・バカル",
+  "missing": []
+ },
+ "avocado_v2:vd2_weathered_scroll": {
+  "name": "Jaded Scroll",
+  "kana": "ジェイダド・スクロウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_warm_storybook": {
+  "name": "Comforting Storybook",
+  "kana": "カムファーティング・ストリーブク",
+  "missing": []
+ },
+ "avocado_v2:vd2_careful_mountain": {
+  "name": "Careful Mountain",
+  "kana": "ケルファル・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_rumbling_gate": {
+  "name": "Rumbling Gate",
+  "kana": "ラムバリング・ゲイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_resolute_banner": {
+  "name": "Resolute Banner",
+  "kana": "レザルート・バナー",
+  "missing": []
+ },
+ "avocado_v2:vd2_shy_bog": {
+  "name": "Shy Marsh",
+  "kana": "シャイ・マルシュ",
+  "missing": []
+ },
+ "avocado_v2:vd2_smiling_trunk": {
+  "name": "Smiling Trunk",
+  "kana": "スマイリング・トラングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_coaxing_seashell": {
+  "name": "Coaxing Seashell",
+  "kana": "コウクシング・シーシェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_wily_coin": {
+  "name": "Chortling Pinwheel",
+  "kana": "チョルタリング・ピンウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_weathered_boot": {
+  "name": "Weary Woodpile",
+  "kana": "ウィリー・ウドパイル",
+  "missing": []
+ },
+ "avocado_v2:vd2_exacting_pillar": {
+  "name": "Deliberate Pillar",
+  "kana": "ディリバーアト・ピラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_fiery_throne": {
+  "name": "Roused Throne",
+  "kana": "ラウズド・スロウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_fierce_sparkler": {
+  "name": "Spirited Banner",
+  "kana": "スピリティド・バナー",
+  "missing": []
+ },
+ "avocado_v2:vd2_weathered_rope": {
+  "name": "Salted Rope",
+  "kana": "ソルティド・ロウプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_steady_rudder": {
+  "name": "Certain Rudder",
+  "kana": "サータン・ラダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_booming_cask": {
+  "name": "Bold Barrel",
+  "kana": "ボウルド・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_gleeful_sail": {
+  "name": "Gleeful Sail",
+  "kana": "グリーファル・セイル",
+  "missing": []
+ },
+ "avocado_v2:vd2_indignant_ladle": {
+  "name": "Vexed Ladle",
+  "kana": "ヴェクスト・レイダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_playful_mast": {
+  "name": "Impish Mast",
+  "kana": "イムピシュ・マスト",
+  "missing": []
+ },
+ "avocado_v2:vd2_polished_icicle": {
+  "name": "Amused Icicle",
+  "kana": "アムユーズド・アイシカル",
+  "missing": []
+ },
+ "avocado_v2:vd2_playful_broom": {
+  "name": "Roguish Broom",
+  "kana": "ローギッシュ・ブルーム",
+  "missing": []
+ },
+ "avocado_v2:pirate-1": {
+  "name": "Swashbuckling Helm",
+  "kana": "スワシュバクリング・ヘルム",
+  "missing": []
+ },
+ "avocado_v2:pirate-2": {
+  "name": "Robust Fiddle",
+  "kana": "ロウバスト・フィダル",
+  "missing": []
+ },
+ "avocado_v2:pirate-3": {
+  "name": "Gruff Anchor",
+  "kana": "グラフ・アングカー",
+  "missing": []
+ },
+ "avocado_v2:pirate-5": {
+  "name": "Looming Foghorn",
+  "kana": "ルーミング・ファグホルン",
+  "missing": []
+ },
+ "avocado_v2:pirate-6": {
+  "name": "Daring Squall",
+  "kana": "デリング・スクウォル",
+  "missing": []
+ },
+ "avocado_v2:pirate-7": {
+  "name": "Rollicking Barrel",
+  "kana": "ラリキング・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0033_v068_28k_g5k": {
+  "name": "Abashed Blossom",
+  "kana": "アバシュト・ブラサム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0447_v068_28k_g5k": {
+  "name": "Affectionate Suitcase",
+  "kana": "アフェクシャナト・スートケイス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0068_v068_28k_g5k": {
+  "name": "Prickly Table",
+  "kana": "プリクリー・テイバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2840_v068_28k_g5k": {
+  "name": "Ambitious Bauble",
+  "kana": "アムビシャス・ボバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0288_v068_28k_g5k": {
+  "name": "Hesitant Hallway",
+  "kana": "ヘジタント・ホルウェイ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0477_v068_28k_g5k": {
+  "name": "Animated Petal",
+  "kana": "アナメイティド・ペタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2749_v068_28k_g5k": {
+  "name": "Rascally Ladder",
+  "kana": "ラスカルライ・ラダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0075_v068_28k_g5k": {
+  "name": "Disapproving Bubble",
+  "kana": "ディサプルーヴィング・ババル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0107_v068_28k_g5k": {
+  "name": "Assertive Canoe",
+  "kana": "アサーティヴ・カヌー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0184_v068_28k_g5k": {
+  "name": "Assured Coat",
+  "kana": "アシュルド・コウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a085_v068_28k_g5k": {
+  "name": "Avid Chimney",
+  "kana": "アヴァド・チムニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0077_v068_28k_g5k": {
+  "name": "Awestruck Kettle",
+  "kana": "アストラク・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a008_v068_28k_g5k": {
+  "name": "Baffled Firework",
+  "kana": "バファルド・ファイルワーク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0462_v068_28k_g5k": {
+  "name": "Bantering Dandelion",
+  "kana": "バンターイング・ダンダライアン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2847_v068_28k_g5k": {
+  "name": "Guarded Table",
+  "kana": "ガルダド・テイバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0199_v068_28k_g5k": {
+  "name": "Irked Thistle",
+  "kana": "アークト・シサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0777_v068_28k_g5k": {
+  "name": "Benevolent Raindrop",
+  "kana": "バネヴァラント・レインドラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0351_v068_28k_g5k": {
+  "name": "Operatic Door",
+  "kana": "アパーアティク・ドル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0109_v068_28k_g5k": {
+  "name": "Ruffled Firecracker",
+  "kana": "ラファルド・ファイアークラカー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a025_v068_28k_g5k": {
+  "name": "Blissful Armchair",
+  "kana": "ブリスファル・アルムチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a128_v068_28k_g5k": {
+  "name": "Boisterous Rosette",
+  "kana": "ボイスターアス・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a014_v068_28k_g5k": {
+  "name": "Encouraging Kite",
+  "kana": "エンカーイジング・カイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2798_v068_28k_g5k": {
+  "name": "Bounding Current",
+  "kana": "バウンディング・カーアント",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0532_v068_28k_g5k": {
+  "name": "Grumbling Bench",
+  "kana": "グラムバリング・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0249_v068_28k_g5k": {
+  "name": "Bright Petal",
+  "kana": "ブライト・ペタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3084_v068_28k_g5k": {
+  "name": "Brisk Bench",
+  "kana": "ブリスク・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a006_v068_28k_g5k": {
+  "name": "Opinionated Hull",
+  "kana": "アピンヤネイティド・ハル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0175_v068_28k_g5k": {
+  "name": "Disapproving Raft",
+  "kana": "ディサプルーヴィング・ラフト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0170_v068_28k_g5k": {
+  "name": "Calm Lilypad",
+  "kana": "カム・リリーパド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0024_v068_28k_g5k": {
+  "name": "Laughing Seed",
+  "kana": "ラフィング・シード",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0191_v068_28k_g5k": {
+  "name": "Calm Log",
+  "kana": "カム・ログ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0646_v068_28k_g5k": {
+  "name": "Candid Sparkler",
+  "kana": "カンダド・スパークラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2835_v068_28k_g5k": {
+  "name": "Careful Kettle",
+  "kana": "ケルファル・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0310_v068_28k_g5k": {
+  "name": "Caring Scroll",
+  "kana": "ケリング・スクロウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a021_v068_28k_g5k": {
+  "name": "Chanting Barrel",
+  "kana": "チャンティング・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2660_v068_28k_g5k": {
+  "name": "Starstruck Barrel",
+  "kana": "スタルストラク・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0088_v068_28k_g5k": {
+  "name": "Intrigued Cork",
+  "kana": "イントリーグド・コルク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0859_v068_28k_g5k": {
+  "name": "Tenderhearted Drum",
+  "kana": "テンダーハルタド・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2865_v068_28k_g5k": {
+  "name": "Chuckling Trunk",
+  "kana": "チャクリング・トラングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a048_v068_28k_g5k": {
+  "name": "Miffed Ladder",
+  "kana": "ミフト・ラダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0106_v068_28k_g5k": {
+  "name": "Jaded Seed",
+  "kana": "ジェイダド・シード",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0097_v068_28k_g5k": {
+  "name": "Mischievous River",
+  "kana": "ミスチャヴァス・リヴァー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0307_v068_28k_g5k": {
+  "name": "Contented Barrel",
+  "kana": "カンテンタド・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3270_v068_28k_g5k": {
+  "name": "Assured Wheel",
+  "kana": "アシュルド・ウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2997_v068_28k_g5k": {
+  "name": "Protective Girder",
+  "kana": "プラテクティヴ・ガーダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0325_v068_28k_g5k": {
+  "name": "Puckish Mountain",
+  "kana": "パキシュ・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0196_v068_28k_g5k": {
+  "name": "Ironic Page",
+  "kana": "アイラニク・ペイジ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0673_v068_28k_g5k": {
+  "name": "Knowing Cabinet",
+  "kana": "ノウイング・カバナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2836_v068_28k_g5k": {
+  "name": "Teasing Flute",
+  "kana": "ティージング・フルート",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0139_v068_28k_g5k": {
+  "name": "Curious Hull",
+  "kana": "クユリーアス・ハル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3155_v068_28k_g5k": {
+  "name": "Dazed Boulder",
+  "kana": "デイズド・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0534_v068_28k_g5k": {
+  "name": "Dazed Petal",
+  "kana": "デイズド・ペタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0368_v068_28k_g5k": {
+  "name": "Dependable Cabinet",
+  "kana": "ディペンダバル・カバナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a131_v068_28k_g5k": {
+  "name": "Breathless Rosette",
+  "kana": "ブレスラス・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a059_v068_28k_g5k": {
+  "name": "Dogged Anchor",
+  "kana": "ドグド・アングカー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0053_v068_28k_g5k": {
+  "name": "Drawling Rock",
+  "kana": "ドロルイング・ラク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3115_v068_28k_g5k": {
+  "name": "Ruffled Wheel",
+  "kana": "ラファルド・ウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0846_v068_28k_g5k": {
+  "name": "Balanced Mantel",
+  "kana": "バランスト・マンタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0072_v068_28k_g5k": {
+  "name": "Dry Spoon",
+  "kana": "ドライ・スプーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0258_v068_28k_g5k": {
+  "name": "Earnest Flute",
+  "kana": "アーニスト・フルート",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3330_v068_28k_g5k": {
+  "name": "Diligent Inkwell",
+  "kana": "ディリジャント・イングクウェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0073_v068_28k_g5k": {
+  "name": "Cynical Sofa",
+  "kana": "シニカル・ソウファ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0104_v068_28k_g5k": {
+  "name": "Jittery Canoe",
+  "kana": "ジターイー・カヌー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2917_v068_28k_g5k": {
+  "name": "Elated Wheel",
+  "kana": "イレイタド・ウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0120_v068_28k_g5k": {
+  "name": "Eloquent Whistle",
+  "kana": "エラクワント・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0140_v068_28k_g5k": {
+  "name": "Enduring Mitten",
+  "kana": "エンドユリング・ミタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0041_v068_28k_g5k": {
+  "name": "Energetic Dandelion",
+  "kana": "エナージェティク・ダンダライアン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0168_v068_28k_g5k": {
+  "name": "Energetic Tambourine",
+  "kana": "エナージェティク・タムバーイーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2662_v068_28k_g5k": {
+  "name": "Dogged Cornerstone",
+  "kana": "ドグド・コルナーストウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0240_v068_28k_g5k": {
+  "name": "Fervent Coat",
+  "kana": "ファーヴァント・コウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0244_v068_28k_g5k": {
+  "name": "Exultant Sunflower",
+  "kana": "イグザルタント・サンフラウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0463_v068_28k_g5k": {
+  "name": "Faithful Jar",
+  "kana": "フェイスファル・ジャル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0107_v068_28k_g5k": {
+  "name": "Fearful Firework",
+  "kana": "フィルファル・ファイルワーク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0339_v068_28k_g5k": {
+  "name": "Impetuous Glove",
+  "kana": "イムペチワス・グラヴ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0065_v068_28k_g5k": {
+  "name": "Fizzy Ladle",
+  "kana": "フィジー・レイダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0428_v068_28k_g5k": {
+  "name": "Serene Snowflake",
+  "kana": "サーイーン・スノウフレイク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0043_v068_28k_g5k": {
+  "name": "Vexed Patch",
+  "kana": "ヴェクスト・パチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3278_v068_28k_g5k": {
+  "name": "Forthright Stove",
+  "kana": "フォルスライト・ストウヴ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a041_v068_28k_g5k": {
+  "name": "Frank Windchime",
+  "kana": "フラングク・ウィンドチャイム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3130_v068_28k_g5k": {
+  "name": "Understanding Tower",
+  "kana": "アンダースタンディング・タウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0021_v068_28k_g5k": {
+  "name": "Bemused Bowl",
+  "kana": "ビムユーズド・ボウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0007_v068_28k_g5k": {
+  "name": "Gentle Seed",
+  "kana": "ジェンタル・シード",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0147_v068_28k_g5k": {
+  "name": "Gleeful Pillow",
+  "kana": "グリーファル・ピロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0015_v068_28k_g5k": {
+  "name": "Steady Gate",
+  "kana": "ステディー・ゲイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3097_v068_28k_g5k": {
+  "name": "Hardworking Wheel",
+  "kana": "ハルドワーキング・ウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0671_v068_28k_g5k": {
+  "name": "Bewildered Bridge",
+  "kana": "ビウィルダード・ブリジ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2868_v068_28k_g5k": {
+  "name": "Staunch Blossom",
+  "kana": "ストンチ・ブラサム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0369_v068_28k_g5k": {
+  "name": "Grounded Cup",
+  "kana": "グラウンディド・カプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0032_v068_28k_g5k": {
+  "name": "Grousing Kettle",
+  "kana": "グラウシング・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a012_v068_28k_g5k": {
+  "name": "Sheepish Wheel",
+  "kana": "シーピシュ・ウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a078_v068_28k_g5k": {
+  "name": "Apologetic Shelf",
+  "kana": "アパラジェティク・シェルフ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0606_v068_28k_g5k": {
+  "name": "Heartening Porch",
+  "kana": "ハルタニング・ポルチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0441_v068_28k_g5k": {
+  "name": "Heartfelt Raindrop",
+  "kana": "ハルトフェルト・レインドラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0103_v068_28k_g5k": {
+  "name": "Heartwarming Saucer",
+  "kana": "ハルトウォルミング・ソサー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0682_v068_28k_g5k": {
+  "name": "Buoyant Chimney",
+  "kana": "ボイアント・チムニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a042_v068_28k_g5k": {
+  "name": "Honest Log",
+  "kana": "アナスト・ログ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_a021_v068_28k_g5k": {
+  "name": "Stalwart Trunk",
+  "kana": "ストルワート・トラングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2873_v068_28k_g5k": {
+  "name": "Bantering Oak",
+  "kana": "バンターイング・オウク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0557_v068_28k_g5k": {
+  "name": "Humorous River",
+  "kana": "ユーマーアス・リヴァー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a045_v068_28k_g5k": {
+  "name": "Immovable Feather",
+  "kana": "イムーヴァバル・フェザー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3220_v068_28k_g5k": {
+  "name": "Impassioned Rudder",
+  "kana": "イムパシャンド・ラダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a030_v068_28k_g5k": {
+  "name": "Scandalized Fan",
+  "kana": "スカンダライズド・ファン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0212_v068_28k_g5k": {
+  "name": "Inquisitive Bench",
+  "kana": "インクウィジティヴ・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0431_v068_28k_g5k": {
+  "name": "Inquisitive Gate",
+  "kana": "インクウィジティヴ・ゲイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0039_v068_28k_g5k": {
+  "name": "Startled Scroll",
+  "kana": "スタルタルド・スクロウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0246_v068_28k_g5k": {
+  "name": "Jocular Streamer",
+  "kana": "ジャクヤラー・ストリーマー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0219_v068_28k_g5k": {
+  "name": "Joking Mountain",
+  "kana": "ジョウキング・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0347_v068_28k_g5k": {
+  "name": "Jovial Map",
+  "kana": "ジョウヴィーアル・マプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0152_v068_28k_g5k": {
+  "name": "Joyful Maypole",
+  "kana": "ジョイファル・メイポウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0128_v068_28k_g5k": {
+  "name": "Joyful Ribbon",
+  "kana": "ジョイファル・リバン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2641_v068_28k_g5k": {
+  "name": "Jubilant Tower",
+  "kana": "ジューバラント・タウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_a014_v068_28k_g5k": {
+  "name": "Precise Popcorn",
+  "kana": "プリサイス・パプコルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0031_v068_28k_g5k": {
+  "name": "Keen Well",
+  "kana": "キーン・ウェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3491_v068_28k_g5k": {
+  "name": "Kindhearted Jetty",
+  "kana": "カインドハルタド・ジェティー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0006_v068_28k_g5k": {
+  "name": "Placid Barrel",
+  "kana": "プラサド・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3363_v068_28k_g5k": {
+  "name": "Laconic Nook",
+  "kana": "ラカニク・ヌク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0038_v068_28k_g5k": {
+  "name": "Laughing Dock",
+  "kana": "ラフィング・ダク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2735_v068_28k_g5k": {
+  "name": "Determined Lighthouse",
+  "kana": "ディターマンド・ライトハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a079_v068_28k_g5k": {
+  "name": "Nurturing Hearthstone",
+  "kana": "ナーチャーイング・ハルスストウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0377_v068_28k_g5k": {
+  "name": "Lighthearted Balloon",
+  "kana": "ライトハルティド・バルーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0392_v068_28k_g5k": {
+  "name": "Affectionate Bench",
+  "kana": "アフェクシャナト・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0270_v068_28k_g5k": {
+  "name": "Droll Blanket",
+  "kana": "ドロウル・ブラングカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0453_v068_28k_g5k": {
+  "name": "Measured River",
+  "kana": "メジャード・リヴァー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0276_v068_28k_g5k": {
+  "name": "Merry Lantern",
+  "kana": "メリー・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2624_v068_28k_g5k": {
+  "name": "Circumspect Hearth",
+  "kana": "サーカムスペクト・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3315_v068_28k_g5k": {
+  "name": "Mournful Rock",
+  "kana": "モルンファル・ラク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3117_v068_28k_g5k": {
+  "name": "Effusive Cabinet",
+  "kana": "エフユーシヴ・カバナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0363_v068_28k_g5k": {
+  "name": "Musing Mirror",
+  "kana": "ムユージング・ミラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0486_v068_28k_g5k": {
+  "name": "Befuddled Shelf",
+  "kana": "ビファダルド・シェルフ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0087_v068_28k_g5k": {
+  "name": "Observant Mountain",
+  "kana": "アブザーヴァント・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3497_v068_28k_g5k": {
+  "name": "Tenacious Mooring",
+  "kana": "タネイシャス・ムリング",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0713_v068_28k_g5k": {
+  "name": "Guarded Pillar",
+  "kana": "ガルダド・ピラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3443_v068_28k_g5k": {
+  "name": "Pensive Hull",
+  "kana": "ペンシヴ・ハル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3420_v068_28k_g5k": {
+  "name": "Pleasant Fence",
+  "kana": "プレザント・フェンス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0771_v068_28k_g5k": {
+  "name": "Precise Harbor",
+  "kana": "プリサイス・ハルバー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2875_v068_28k_g5k": {
+  "name": "Wise Anchor",
+  "kana": "ワイズ・アングカー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0153_v068_28k_g5k": {
+  "name": "Quivering Mug",
+  "kana": "クウィヴァーイング・マグ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3320_v068_28k_g5k": {
+  "name": "Teasing Drum",
+  "kana": "ティージング・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0681_v068_28k_g5k": {
+  "name": "Cautious Harbor",
+  "kana": "コシャス・ハルバー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2828_v068_28k_g5k": {
+  "name": "Jubilant Paddleboat",
+  "kana": "ジューバラント・パダルボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0452_v068_28k_g5k": {
+  "name": "Nervous Wick",
+  "kana": "ナーヴァス・ウィク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0125_v068_28k_g5k": {
+  "name": "Reserved Bench",
+  "kana": "リザーヴド・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2670_v068_28k_g5k": {
+  "name": "Sympathetic Toffee",
+  "kana": "シムパセティク・タフィー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0382_v068_28k_g5k": {
+  "name": "Genial Tugboat",
+  "kana": "ジーンヤル・タグボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0102_v068_28k_g5k": {
+  "name": "Peaceful Ledge",
+  "kana": "ピースファル・レジ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0228_v068_28k_g5k": {
+  "name": "Roaming Bubble",
+  "kana": "ロウミング・ババル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0639_v068_28k_g5k": {
+  "name": "Urgent Raindrop",
+  "kana": "アージャント・レインドラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0051_v068_28k_g5k": {
+  "name": "Laconic Lighthouse",
+  "kana": "ラカニク・ライトハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2788_v068_28k_g5k": {
+  "name": "Canny Table",
+  "kana": "カニー・テイバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3085_v068_28k_g5k": {
+  "name": "Settled Kiln",
+  "kana": "セタルド・キルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0543_v068_28k_g5k": {
+  "name": "Sanguine Bell",
+  "kana": "サンググウィン・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0063_v068_28k_g5k": {
+  "name": "Dry Hearth",
+  "kana": "ドライ・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0022_v068_28k_g5k": {
+  "name": "Aloof Canoe",
+  "kana": "アルーフ・カヌー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0009_v068_28k_g5k": {
+  "name": "Serene Leaf",
+  "kana": "サーイーン・リーフ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0506_v068_28k_g5k": {
+  "name": "Sheepish Cloud",
+  "kana": "シーピシュ・クラウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0056_v068_28k_g5k": {
+  "name": "Sheepish Door",
+  "kana": "シーピシュ・ドル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a036_v068_28k_g5k": {
+  "name": "Sheltering Rock",
+  "kana": "シェルターイング・ラク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2849_v068_28k_g5k": {
+  "name": "Chatty Shell",
+  "kana": "チャティー・シェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2939_v068_28k_g5k": {
+  "name": "Beaming Mountain",
+  "kana": "ビーミング・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2909_v068_28k_g5k": {
+  "name": "Doting Boat",
+  "kana": "ドウティング・ボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2803_v068_28k_g5k": {
+  "name": "Skipping Pebble",
+  "kana": "スキピング・ペバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0856_v068_28k_g5k": {
+  "name": "Smug Cork",
+  "kana": "スマグ・コルク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2853_v068_28k_g5k": {
+  "name": "Canny Gargoyle",
+  "kana": "カニー・ガルゴイル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0647_v068_28k_g5k": {
+  "name": "Contented Sofa",
+  "kana": "カンテンタド・ソウファ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0484_v068_28k_g5k": {
+  "name": "Openhearted Locket",
+  "kana": "オウパンハルタド・ラキト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0267_v068_28k_g5k": {
+  "name": "Forthright Doorway",
+  "kana": "フォルスライト・ドルウェイ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2644_v068_28k_g5k": {
+  "name": "Softhearted Dewdrop",
+  "kana": "サフトハルタド・ドードラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3492_v068_28k_g5k": {
+  "name": "Sparkling Whistle",
+  "kana": "スパルクリング・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2817_v068_28k_g5k": {
+  "name": "Spry Quarry",
+  "kana": "スプライ・クウォリー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a134_v068_28k_g5k": {
+  "name": "Staccato Rosette",
+  "kana": "スタカトウ・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a089_v068_28k_g5k": {
+  "name": "Stalwart Porch",
+  "kana": "ストルワート・ポルチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a086_v068_28k_g5k": {
+  "name": "Wonderstruck Oar",
+  "kana": "ワンダーズトラク・オール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0208_v068_28k_g5k": {
+  "name": "Startled Patch",
+  "kana": "スタルタルド・パチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a009_v068_28k_g5k": {
+  "name": "Wary Drawbridge",
+  "kana": "ウェリー・ドロブリジ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0361_v068_28k_g5k": {
+  "name": "Prickly Bench",
+  "kana": "プリクリー・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0394_v068_28k_g5k": {
+  "name": "Irked Headland",
+  "kana": "アークト・ヘドランド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2841_v068_28k_g5k": {
+  "name": "Strolling Oak",
+  "kana": "ストロウリング・オウク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0255_v068_28k_g5k": {
+  "name": "Sturdy Sunflower",
+  "kana": "スターディー・サンフラウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep500_0441_v068_28k_g5k": {
+  "name": "Succinct Vault",
+  "kana": "サクシングクト・ヴォルト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0709_v068_28k_g5k": {
+  "name": "Caring Feather",
+  "kana": "ケリング・フェザー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a013_v068_28k_g5k": {
+  "name": "Sunny Chimney",
+  "kana": "サニー・チムニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0178_v068_28k_g5k": {
+  "name": "Surprised Bucket",
+  "kana": "サープライズド・バカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0123_v068_28k_g5k": {
+  "name": "Chatty Bell",
+  "kana": "チャティー・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2774_v068_28k_g5k": {
+  "name": "Grand Wheel",
+  "kana": "グランド・ウィール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3083_v068_28k_g5k": {
+  "name": "Rousing Rosette",
+  "kana": "ラウジング・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3469_v068_28k_g5k": {
+  "name": "Tender Petal",
+  "kana": "テンダー・ペタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0815_v068_28k_g5k": {
+  "name": "Terse Boulder",
+  "kana": "タース・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0083_v068_28k_g5k": {
+  "name": "Consoling Pillow",
+  "kana": "カンソウリング・ピロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0757_v068_28k_g5k": {
+  "name": "Tickled Button",
+  "kana": "ティカルド・バタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a126_v068_28k_g5k": {
+  "name": "Trembling Firework",
+  "kana": "トレムバリング・ファイルワーク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0490_v068_28k_g5k": {
+  "name": "Quizzical Thistle",
+  "kana": "クウィザカル・シサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2746_v068_28k_g5k": {
+  "name": "Trusting Pillar",
+  "kana": "トラスティング・ピラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a066_v068_28k_g5k": {
+  "name": "Truthful Kiln",
+  "kana": "トルースファル・キルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a011_v068_28k_g5k": {
+  "name": "Resolute Sparkler",
+  "kana": "レザルート・スパークラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a038_v068_28k_g5k": {
+  "name": "Flustered Key",
+  "kana": "フラスタード・キー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0821_v068_28k_g5k": {
+  "name": "Sage Whistle",
+  "kana": "セイジ・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0121_v068_28k_g5k": {
+  "name": "Disapproving Trunk",
+  "kana": "ディサプルーヴィング・トラングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0711_v068_28k_g5k": {
+  "name": "Seasoned Drum",
+  "kana": "シーザンド・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0719_v068_28k_g5k": {
+  "name": "Uplifted Chimney",
+  "kana": "アプリフティド・チムニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0145_v068_28k_g5k": {
+  "name": "Inquiring Book",
+  "kana": "インクワイアーイング・ブク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2837_v068_28k_g5k": {
+  "name": "Sedate Fence",
+  "kana": "シデイト・フェンス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0835_v068_28k_g5k": {
+  "name": "Earnest Candle",
+  "kana": "アーニスト・カンダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0198_v068_28k_g5k": {
+  "name": "Wary Doorway",
+  "kana": "ウェリー・ドルウェイ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a001_v068_28k_g5k": {
+  "name": "Wholehearted Thimble",
+  "kana": "ホウルハルティド・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_a029_v068_28k_g5k": {
+  "name": "Whooping Tower",
+  "kana": "ウーピング・タウアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_2740_v068_28k_g5k": {
+  "name": "Wry Cabinet",
+  "kana": "ライ・カバナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3494_v068_28k_g5k": {
+  "name": "Zealous Harbor",
+  "kana": "ゼラス・ハルバー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0634_v068_28k_g5k": {
+  "name": "Zestful Boulder",
+  "kana": "ゼストファル・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep5k_3072_v068_28k_g5k": {
+  "name": "Zingy Skillet",
+  "kana": "ジンギー・スキラト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r8_rep1k_0424_v068_28k_g5k": {
+  "name": "Zippy Bell",
+  "kana": "ジピー・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0101_v068_28k_g5k": {
+  "name": "Cool Chimney",
+  "kana": "クール・チムニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0182_v068_28k_g5k": {
+  "name": "Enquiring Locket",
+  "kana": "エンクワイアリング・ラキト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0193_v068_28k_g5k": {
+  "name": "Impish Gravel",
+  "kana": "イムピシュ・グラヴァル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0197_v068_28k_g5k": {
+  "name": "Spirited Trumpet",
+  "kana": "スピリティド・トラムパト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0198_v068_28k_g5k": {
+  "name": "Grinning Campfire",
+  "kana": "グリニング・カムプファイアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0199_v068_28k_g5k": {
+  "name": "Frustrated Sandpaper",
+  "kana": "フラストレイタド・サンドペイパー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0204_v068_28k_g5k": {
+  "name": "Placid Boulder",
+  "kana": "プラサド・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0211_v068_28k_g5k": {
+  "name": "Jittery Raindrop",
+  "kana": "ジターイー・レインドラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0219_v068_28k_g5k": {
+  "name": "Hasty Clothespin",
+  "kana": "ヘイスティー・クロウズズピン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0236_v068_28k_g5k": {
+  "name": "Guarded Cushion",
+  "kana": "ガルダド・クシャン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0293_v068_28k_g5k": {
+  "name": "Doting Whistle",
+  "kana": "ドウティング・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0323_v068_28k_g5k": {
+  "name": "Doleful Chimney",
+  "kana": "ドウルファル・チムニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0326_v068_28k_g5k": {
+  "name": "Steadfast Broom",
+  "kana": "ステドファスト・ブルーム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0346_v068_28k_g5k": {
+  "name": "Dogged Barrel",
+  "kana": "ドグド・バラル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0368_v068_28k_g5k": {
+  "name": "Shrewd Bell",
+  "kana": "シュルード・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0429_v068_28k_g5k": {
+  "name": "Bashful Pinecone",
+  "kana": "バシュファル・パインコウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0474_v068_28k_g5k": {
+  "name": "Somber Crate",
+  "kana": "サムバー・クレイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0476_v068_28k_g5k": {
+  "name": "Chipper Kazoo",
+  "kana": "チパー・カズー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_a001_v068_28k_g5k": {
+  "name": "Weary Driftwood",
+  "kana": "ウィリー・ドリフトウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_a005_v068_28k_g5k": {
+  "name": "Stalwart Trumpet",
+  "kana": "ストルワート・トラムパト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_a007_v068_28k_g5k": {
+  "name": "Gentle Cello",
+  "kana": "ジェンタル・チェロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_a037_v068_28k_g5k": {
+  "name": "Languid Volcano",
+  "kana": "ランググワド・ヴァルケイノウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_a039_v068_28k_g5k": {
+  "name": "Aloof Marble",
+  "kana": "アルーフ・マルバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_b026_v068_28k_g5k": {
+  "name": "Roguish Hearth",
+  "kana": "ローギッシュ・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0010_v068_28k_g5k": {
+  "name": "Scandalized Toast",
+  "kana": "スカンダライズド・トウスト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0014_v068_28k_g5k": {
+  "name": "Composed Bugle",
+  "kana": "カムポウズド・ブユーガル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0029_v068_28k_g5k": {
+  "name": "Miffed Harmonica",
+  "kana": "ミフト・ハルマニカ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0030_v068_28k_g5k": {
+  "name": "Homespun Mug",
+  "kana": "ホウムスパン・マグ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0037_v068_28k_g5k": {
+  "name": "Dignified Piano",
+  "kana": "ディグナファイド・ピーアノウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0038_v068_28k_g5k": {
+  "name": "Warmhearted Banjo",
+  "kana": "ウォルムハルタド・バンジョウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0040_v068_28k_g5k": {
+  "name": "Steadfast Fencepost",
+  "kana": "ステドファスト・フェンスポウスト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0048_v068_28k_g5k": {
+  "name": "Speedy Scooter",
+  "kana": "スピーディー・スクーター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0051_v068_28k_g5k": {
+  "name": "Hardy Pine",
+  "kana": "ハルディー・パイン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0058_v068_28k_g5k": {
+  "name": "Measured Bookcase",
+  "kana": "メジャード・ブクケイス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0064_v068_28k_g5k": {
+  "name": "Sincere Barn",
+  "kana": "シンシル・バルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0065_v068_28k_g5k": {
+  "name": "Prankish Sparkler",
+  "kana": "プラングクイシュ・スパークラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0066_v068_28k_g5k": {
+  "name": "Rattled Trombone",
+  "kana": "ラタルド・トラムボウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0072_v068_28k_g5k": {
+  "name": "Theatrical Gong",
+  "kana": "シーアトリカル・ゴング",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0077_v068_28k_g5k": {
+  "name": "Earnest Brick",
+  "kana": "アーニスト・ブリク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0081_v068_28k_g5k": {
+  "name": "Puzzled Walnut",
+  "kana": "パザルド・ウォルナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0087_v068_28k_g5k": {
+  "name": "Defiant Cobblestone",
+  "kana": "ディファイアント・カバルストウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0088_v068_28k_g5k": {
+  "name": "Disapproving Casserole",
+  "kana": "ディサプルーヴィング・カサーオウル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0094_v068_28k_g5k": {
+  "name": "Triumphant Piccolo",
+  "kana": "トライアムファント・ピカロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0098_v068_28k_g5k": {
+  "name": "Wry Peppermill",
+  "kana": "ライ・ペパーミル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0103_v068_28k_g5k": {
+  "name": "Upbeat Trophy",
+  "kana": "アプビート・トロウフィー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0112_v068_28k_g5k": {
+  "name": "Heartfelt Drum",
+  "kana": "ハルトフェルト・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0119_v068_28k_g5k": {
+  "name": "Smug Doorbell",
+  "kana": "スマグ・ドルベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0131_v068_28k_g5k": {
+  "name": "Mellow Syrup",
+  "kana": "メロウ・サーアプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0135_v068_28k_g5k": {
+  "name": "Kindhearted Hammock",
+  "kana": "カインドハルタド・ハマク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0136_v068_28k_g5k": {
+  "name": "Tenacious Megaphone",
+  "kana": "タネイシャス・メガフォウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0139_v068_28k_g5k": {
+  "name": "Bashful Bubble",
+  "kana": "バシュファル・ババル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0141_v068_28k_g5k": {
+  "name": "Tireless Pendulum",
+  "kana": "タイアーラス・ペンジャラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0142_v068_28k_g5k": {
+  "name": "Starstruck Bucket",
+  "kana": "スタルストラク・バカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0145_v068_28k_g5k": {
+  "name": "Wholehearted Pillow",
+  "kana": "ホウルハルティド・ピロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0147_v068_28k_g5k": {
+  "name": "Easygoing Skillet",
+  "kana": "イージーゴウイング・スキラト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0151_v068_28k_g5k": {
+  "name": "Whimsical Pancake",
+  "kana": "ウィムジカル・パンケイク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0160_v068_28k_g5k": {
+  "name": "Timid Umbrella",
+  "kana": "ティミド・アムブレラ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0161_v068_28k_g5k": {
+  "name": "Seasoned Saddle",
+  "kana": "シーザンド・サダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0166_v068_28k_g5k": {
+  "name": "Suave Deckchair",
+  "kana": "スワヴ・デクチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0167_v068_28k_g5k": {
+  "name": "Patient Colander",
+  "kana": "ペイシャント・カランダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0170_v068_28k_g5k": {
+  "name": "Interested Whisk",
+  "kana": "イントラスティド・ウィスク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0172_v068_28k_g5k": {
+  "name": "Dramatic Thundercloud",
+  "kana": "ドラマティク・サンダークラウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0173_v068_28k_g5k": {
+  "name": "Eager Bonfire",
+  "kana": "イーガー・バンファイアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0179_v068_28k_g5k": {
+  "name": "Eager Trampoline",
+  "kana": "イーガー・トラムパリーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0180_v068_28k_g5k": {
+  "name": "Droll Oboe",
+  "kana": "ドロウル・オウボウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0181_v068_28k_g5k": {
+  "name": "Loving Hearth",
+  "kana": "ラヴィング・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0184_v068_28k_g5k": {
+  "name": "Flabbergasted Horseshoe",
+  "kana": "フラバーガスティド・ホルスシュー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0186_v068_28k_g5k": {
+  "name": "Searching Mandolin",
+  "kana": "サーチング・マンダリン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0220_v068_28k_g5k": {
+  "name": "Jubilant Hayloft",
+  "kana": "ジューバラント・ヘイロフト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0233_v068_28k_g5k": {
+  "name": "Charming Sofa",
+  "kana": "チャルミング・ソウファ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0240_v068_28k_g5k": {
+  "name": "Stubborn Kettledrum",
+  "kana": "スタバーン・ケタルドラム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0244_v068_28k_g5k": {
+  "name": "Confident Smokehouse",
+  "kana": "カンファダント・スモウクハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0254_v068_28k_g5k": {
+  "name": "Soothing Pitcher",
+  "kana": "スージング・ピチャー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0264_v068_28k_g5k": {
+  "name": "Smug Boulder",
+  "kana": "スマグ・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0278_v068_28k_g5k": {
+  "name": "Resolute Riverboat",
+  "kana": "レザルート・リヴァーボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0284_v068_28k_g5k": {
+  "name": "Witty Lamp",
+  "kana": "ウィティー・ラムプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0286_v068_28k_g5k": {
+  "name": "Genuine Waterfall",
+  "kana": "ジェンヤワン・ウォターフォル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0290_v068_28k_g5k": {
+  "name": "Operatic Tophat",
+  "kana": "アパーアティク・タプハト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0294_v068_28k_g5k": {
+  "name": "Heartfelt Boot",
+  "kana": "ハルトフェルト・ブート",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0316_v068_28k_g5k": {
+  "name": "Homespun Oak",
+  "kana": "ホウムスパン・オウク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0324_v068_28k_g5k": {
+  "name": "Indomitable Minecart",
+  "kana": "インダマタバル・マインカルト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0326_v068_28k_g5k": {
+  "name": "Piqued Trombone",
+  "kana": "ピークト・トラムボウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0364_v068_28k_g5k": {
+  "name": "Decisive Skillet",
+  "kana": "ディサイシヴ・スキラト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0368_v068_28k_g5k": {
+  "name": "Grateful Pecan",
+  "kana": "グレイトファル・パカン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0370_v068_28k_g5k": {
+  "name": "Loyal Toffee",
+  "kana": "ロイアル・タフィー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0374_v068_28k_g5k": {
+  "name": "Flustered Button",
+  "kana": "フラスタード・バタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0382_v068_28k_g5k": {
+  "name": "Absorbed Paintbox",
+  "kana": "アブゾルブド・ペイントバクス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0388_v068_28k_g5k": {
+  "name": "Genteel Armchair",
+  "kana": "ジェンティール・アルムチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0389_v068_28k_g5k": {
+  "name": "Plainspoken Clarinet",
+  "kana": "プレインスポウカン・クレラネト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0394_v068_28k_g5k": {
+  "name": "Exuberant Streamer",
+  "kana": "イグズーバーアント・ストリーマー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0395_v068_28k_g5k": {
+  "name": "Precise Hatstand",
+  "kana": "プリサイス・ハトスタンド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0399_v068_28k_g5k": {
+  "name": "Fascinated Glockenspiel",
+  "kana": "ファサネイタド・グラカンスピール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0400_v068_28k_g5k": {
+  "name": "Lively Timpani",
+  "kana": "ライヴリー・ティムパニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0402_v068_28k_g5k": {
+  "name": "Plucky Piccolo",
+  "kana": "プラキー・ピカロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0404_v068_28k_g5k": {
+  "name": "Bewildered Seashell",
+  "kana": "ビウィルダード・シーシェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0407_v068_28k_g5k": {
+  "name": "Affronted Dewdrop",
+  "kana": "アフランティド・ドードラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0408_v068_28k_g5k": {
+  "name": "Wonderstruck Sweater",
+  "kana": "ワンダーズトラク・スウェター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0409_v068_28k_g5k": {
+  "name": "Diffident Buttercup",
+  "kana": "ディファドエント・バターカプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0410_v068_28k_g5k": {
+  "name": "Gleeful Truffle",
+  "kana": "グリーファル・トラファル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0417_v068_28k_g5k": {
+  "name": "Softhearted Muffin",
+  "kana": "サフトハルタド・マファン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0420_v068_28k_g5k": {
+  "name": "Ironic Bramble",
+  "kana": "アイラニク・ブラムバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0421_v068_28k_g5k": {
+  "name": "Expressive Candelabra",
+  "kana": "イクスプレシヴ・カンダラブラ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0422_v068_28k_g5k": {
+  "name": "Animated Sunhat",
+  "kana": "アナメイティド・サンハト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0427_v068_28k_g5k": {
+  "name": "Joyful Bicycle",
+  "kana": "ジョイファル・バイシカル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0429_v068_28k_g5k": {
+  "name": "Defiant Soapbox",
+  "kana": "ディファイアント・ソウプバクス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0435_v068_28k_g5k": {
+  "name": "Mischievous Cornet",
+  "kana": "ミスチャヴァス・コルネト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0439_v068_28k_g5k": {
+  "name": "Zippy Sled",
+  "kana": "ジピー・スレド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0444_v068_28k_g5k": {
+  "name": "Insistent Bulldozer",
+  "kana": "インシスタント・ブルドウザー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0447_v068_28k_g5k": {
+  "name": "Outspoken Flint",
+  "kana": "アウトスポウカン・フリント",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0449_v068_28k_g5k": {
+  "name": "Perplexed Kettle",
+  "kana": "パープレクスト・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0452_v068_28k_g5k": {
+  "name": "Compassionate Handbell",
+  "kana": "カムパシャナト・ハンドベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0454_v068_28k_g5k": {
+  "name": "Loyal Lifebuoy",
+  "kana": "ロイアル・ライフブーイー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0490_v068_28k_g5k": {
+  "name": "Buoyant Trampoline",
+  "kana": "ボイアント・トラムパリーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0492_v068_28k_g5k": {
+  "name": "Quippy Tugboat",
+  "kana": "クイッピー・タグボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0497_v068_28k_g5k": {
+  "name": "Stirring Peony",
+  "kana": "スターイング・ピーアニー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0506_v068_28k_g5k": {
+  "name": "Heartfelt Oboe",
+  "kana": "ハルトフェルト・オウボウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0508_v068_28k_g5k": {
+  "name": "Questioning Signpost",
+  "kana": "クウェスチャニング・サインポウスト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0520_v068_28k_g5k": {
+  "name": "Grounded Workbench",
+  "kana": "グラウンディド・ワークベンチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0528_v068_28k_g5k": {
+  "name": "Upbeat Sunhat",
+  "kana": "アプビート・サンハト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0529_v068_28k_g5k": {
+  "name": "Calm Lighthouse",
+  "kana": "カム・ライトハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0530_v068_28k_g5k": {
+  "name": "Delighted Bonfire",
+  "kana": "ディライタド・バンファイアー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0533_v068_28k_g5k": {
+  "name": "Stirring Kettle",
+  "kana": "スターイング・ケタル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0535_v068_28k_g5k": {
+  "name": "Wisecracking Doorbell",
+  "kana": "ワイズクラキング・ドルベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0538_v068_28k_g5k": {
+  "name": "Inspiring Lectern",
+  "kana": "インスパイリング・レクターン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0540_v068_28k_g5k": {
+  "name": "Peeved Tuba",
+  "kana": "ピーヴド・トゥーバ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0543_v068_28k_g5k": {
+  "name": "Impish Tambourine",
+  "kana": "イムピシュ・タムバーイーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0547_v068_28k_g5k": {
+  "name": "Discerning Cymbal",
+  "kana": "ディサーニング・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0550_v068_28k_g5k": {
+  "name": "Bemused Fiddle",
+  "kana": "ビムユーズド・フィダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0554_v068_28k_g5k": {
+  "name": "Unbowed Oak",
+  "kana": "アンボウド・オウク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0557_v068_28k_g5k": {
+  "name": "Fond Flowerpot",
+  "kana": "ファンド・フラウアーパト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0558_v068_28k_g5k": {
+  "name": "Warmhearted Armchair",
+  "kana": "ウォルムハルタド・アルムチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0561_v068_28k_g5k": {
+  "name": "Mystified Weathervane",
+  "kana": "ミスタファイド・ウェザーヴェイン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0566_v068_28k_g5k": {
+  "name": "Benevolent Moon",
+  "kana": "バネヴァラント・ムーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0573_v068_28k_g5k": {
+  "name": "Kind Lime",
+  "kana": "カインド・ライム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0574_v068_28k_g5k": {
+  "name": "Composed Chessboard",
+  "kana": "カムポウズド・チェスボルド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0579_v068_28k_g5k": {
+  "name": "Certain Key",
+  "kana": "サータン・キー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0580_v068_28k_g5k": {
+  "name": "Cheery Moneybox",
+  "kana": "チリー・マニーバクス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0590_v068_28k_g5k": {
+  "name": "Cheerful Tent",
+  "kana": "チルファル・テント",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0592_v068_28k_g5k": {
+  "name": "Upstanding Firetruck",
+  "kana": "アプスタンディング・ファイアートラク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0594_v068_28k_g5k": {
+  "name": "Smug Trophy",
+  "kana": "スマグ・トロウフィー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0595_v068_28k_g5k": {
+  "name": "Frazzled Thistle",
+  "kana": "フラザルド・シサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0597_v068_28k_g5k": {
+  "name": "Bouncy Ukulele",
+  "kana": "バウンシー・ユーカレイリー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0598_v068_28k_g5k": {
+  "name": "Blithe Deckchair",
+  "kana": "ブライズ・デクチェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0600_v068_28k_g5k": {
+  "name": "Hardworking Windmill",
+  "kana": "ハルドワーキング・ウィンドミル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0604_v068_28k_g5k": {
+  "name": "Nurturing Breadbasket",
+  "kana": "ナーチャーイング・ブレドバスカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0606_v068_28k_g5k": {
+  "name": "Grandiose Tuba",
+  "kana": "グランディーオウス・トゥーバ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0610_v068_28k_g5k": {
+  "name": "Determined Podium",
+  "kana": "ディターマンド・ポウディーアム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0614_v068_28k_g5k": {
+  "name": "Chirpy Steamboat",
+  "kana": "チャーピー・スティームボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0617_v068_28k_g5k": {
+  "name": "Plucky Rollerskate",
+  "kana": "プラキー・ロウラーズケイト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0618_v068_28k_g5k": {
+  "name": "Avid Saxophone",
+  "kana": "アヴァド・サクサフォウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0624_v068_28k_g5k": {
+  "name": "Persistent Shovel",
+  "kana": "パーシスタント・シャヴァル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0626_v068_28k_g5k": {
+  "name": "Nostalgic Oatcake",
+  "kana": "ノスタルジク・オウトケイク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0627_v068_28k_g5k": {
+  "name": "Marveling Raindrop",
+  "kana": "マルヴァリング・レインドラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0628_v068_28k_g5k": {
+  "name": "Fretful Haystack",
+  "kana": "フレトファル・ヘイスタク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0629_v068_28k_g5k": {
+  "name": "Majestic Parasol",
+  "kana": "マジェスティク・ペラサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0631_v068_28k_g5k": {
+  "name": "Thrilled Spoon",
+  "kana": "スリルド・スプーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0654_v068_28k_g5k": {
+  "name": "Cheerful Scarf",
+  "kana": "チルファル・スカルフ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0658_v068_28k_g5k": {
+  "name": "Busy Bugle",
+  "kana": "ビジー・ブユーガル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0686_v068_28k_g5k": {
+  "name": "Wholehearted Doorbell",
+  "kana": "ホウルハルティド・ドルベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0701_v068_28k_g5k": {
+  "name": "Jolly Popsicle",
+  "kana": "ジャリー・パプシカル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0710_v068_28k_g5k": {
+  "name": "Plucky Trombone",
+  "kana": "プラキー・トラムボウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0718_v068_28k_g5k": {
+  "name": "Exuberant Bongo",
+  "kana": "イグズーバーアント・バングゴウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0728_v068_28k_g5k": {
+  "name": "Ebullient Grandstand",
+  "kana": "イバルヤント・グランドスタンド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0735_v068_28k_g5k": {
+  "name": "Worried Lantern",
+  "kana": "ワーイード・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0736_v068_28k_g5k": {
+  "name": "Attentive Key",
+  "kana": "アテンティヴ・キー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0740_v068_28k_g5k": {
+  "name": "Astonished Bell",
+  "kana": "アスタニシュト・ベル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0754_v068_28k_g5k": {
+  "name": "Deadpan Skylight",
+  "kana": "デドパン・スカイライト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0756_v068_28k_g5k": {
+  "name": "Buoyant Gong",
+  "kana": "ボイアント・ゴング",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0778_v068_28k_g5k": {
+  "name": "Rousing Megaphone",
+  "kana": "ラウジング・メガフォウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0795_v068_28k_g5k": {
+  "name": "Jolly Sunbeam",
+  "kana": "ジャリー・サンビーム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0845_v068_28k_g5k": {
+  "name": "Grinning Dewdrop",
+  "kana": "グリニング・ドードラプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_0985_v068_28k_g5k": {
+  "name": "Tenderhearted Sweater",
+  "kana": "テンダーハルタド・スウェター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1000_v068_28k_g5k": {
+  "name": "Willing Toolbelt",
+  "kana": "ウィリング・トゥールベルト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1019_v068_28k_g5k": {
+  "name": "Industrious Sandpaper",
+  "kana": "インダストリーアス・サンドペイパー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1063_v068_28k_g5k": {
+  "name": "Astonished Hinge",
+  "kana": "アスタニシュト・ヒンジ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1083_v068_28k_g5k": {
+  "name": "Effervescent Barn",
+  "kana": "エファーヴェサント・バルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1084_v068_28k_g5k": {
+  "name": "Wonderstruck Marble",
+  "kana": "ワンダーズトラク・マルバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1091_v068_28k_g5k": {
+  "name": "Refined Globe",
+  "kana": "ラファインド・グロウブ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1095_v068_28k_g5k": {
+  "name": "Bold Matchbox",
+  "kana": "ボウルド・マチバクス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1097_v068_28k_g5k": {
+  "name": "Dignified Lifeboat",
+  "kana": "ディグナファイド・ライフボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1106_v068_28k_g5k": {
+  "name": "Discreet Vase",
+  "kana": "ディスクリート・ヴェイス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1391_v068_28k_g5k": {
+  "name": "Cheery Snowglobe",
+  "kana": "チリー・スノウグロウブ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1901_v068_28k_g5k": {
+  "name": "Rollicking Greenhouse",
+  "kana": "ラリキング・グリーンハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1903_v068_28k_g5k": {
+  "name": "Beaming Cello",
+  "kana": "ビーミング・チェロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1921_v068_28k_g5k": {
+  "name": "Gleeful Sparkler",
+  "kana": "グリーファル・スパークラー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1936_v068_28k_g5k": {
+  "name": "Fastidious Radiator",
+  "kana": "ファスティディーアス・レイディーエイター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1954_v068_28k_g5k": {
+  "name": "Amused Parchment",
+  "kana": "アムユーズド・パルチマント",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1962_v068_28k_g5k": {
+  "name": "Peaceful Mountain",
+  "kana": "ピースファル・マウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1969_v068_28k_g5k": {
+  "name": "Glad Sandbar",
+  "kana": "グラド・サンドバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1996_v068_28k_g5k": {
+  "name": "Punctual Clock",
+  "kana": "パングクチューアル・クラク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2006_v068_28k_g5k": {
+  "name": "Irreverent Ratchet",
+  "kana": "イレヴァーアント・ラチャト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2013_v068_28k_g5k": {
+  "name": "Bantering Cypress",
+  "kana": "バンターイング・サイプラス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2017_v068_28k_g5k": {
+  "name": "Humble Wheelbarrow",
+  "kana": "ハムバル・ウィールベロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2019_v068_28k_g5k": {
+  "name": "Proud Tambourine",
+  "kana": "プラウド・タムバーイーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2026_v068_28k_g5k": {
+  "name": "Meticulous Pen",
+  "kana": "マティクヤラス・ペン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2045_v068_28k_g5k": {
+  "name": "Cheerful Chestnut",
+  "kana": "チルファル・チェスナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2074_v068_28k_g5k": {
+  "name": "Elated Muffin",
+  "kana": "イレイタド・マファン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2076_v068_28k_g5k": {
+  "name": "Exultant Quilt",
+  "kana": "イグザルタント・クウィルト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2097_v068_28k_g5k": {
+  "name": "Collected Milestone",
+  "kana": "カレクタド・マイルストウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2117_v068_28k_g5k": {
+  "name": "Particular Driftwood",
+  "kana": "パーティクヤラー・ドリフトウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2119_v068_28k_g5k": {
+  "name": "Dashing Oar",
+  "kana": "ダシング・オール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2121_v068_28k_g5k": {
+  "name": "Jittery Ribbon",
+  "kana": "ジターイー・リバン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2126_v068_28k_g5k": {
+  "name": "Genuine Cabin",
+  "kana": "ジェンヤワン・カバン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2127_v068_28k_g5k": {
+  "name": "Exacting Rosette",
+  "kana": "イグザクティング・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2134_v068_28k_g5k": {
+  "name": "Compassionate Cup",
+  "kana": "カムパシャナト・カプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2139_v068_28k_g5k": {
+  "name": "Sunny Carousel",
+  "kana": "サニー・ケラセル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2145_v068_28k_g5k": {
+  "name": "Dashing Lantern",
+  "kana": "ダシング・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2148_v068_28k_g5k": {
+  "name": "Irreverent Crabapple",
+  "kana": "イレヴァーアント・クラブアパル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2157_v068_28k_g5k": {
+  "name": "Charming Bouquet",
+  "kana": "チャルミング・ブーケイ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2161_v068_28k_g5k": {
+  "name": "Level Walnut",
+  "kana": "レヴァル・ウォルナト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2167_v068_28k_g5k": {
+  "name": "Humorous Woodpile",
+  "kana": "ユーマーアス・ウドパイル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2171_v068_28k_g5k": {
+  "name": "Anxious Eggcup",
+  "kana": "アングクシャス・エグカプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2172_v068_28k_g5k": {
+  "name": "Patient Overcoat",
+  "kana": "ペイシャント・オウヴァーコウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2181_v068_28k_g5k": {
+  "name": "Exultant Wagon",
+  "kana": "イグザルタント・ワガン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2191_v068_28k_g5k": {
+  "name": "Attentive Riverstone",
+  "kana": "アテンティヴ・リヴァーズトウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2234_v068_28k_g5k": {
+  "name": "Irked Stewpot",
+  "kana": "アークト・ストゥーパト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2237_v068_28k_g5k": {
+  "name": "Steady Barn",
+  "kana": "ステディー・バルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2240_v068_28k_g5k": {
+  "name": "Hearty Tractor",
+  "kana": "ハルティー・トラクター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2241_v068_28k_g5k": {
+  "name": "Bothered Ukulele",
+  "kana": "バザード・ユーカレイリー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2248_v068_28k_g5k": {
+  "name": "Daring Rowboat",
+  "kana": "デリング・ロウボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2253_v068_28k_g5k": {
+  "name": "Joyous Scarecrow",
+  "kana": "ジョイアス・スカルクロウ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2267_v068_28k_g5k": {
+  "name": "Steady Comb",
+  "kana": "ステディー・コウム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2279_v068_28k_g5k": {
+  "name": "Stoic Bucket",
+  "kana": "ストウイク・バカト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2280_v068_28k_g5k": {
+  "name": "Genial Hearth",
+  "kana": "ジーンヤル・ハルス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2288_v068_28k_g5k": {
+  "name": "Ethereal Feather",
+  "kana": "イシリーアル・フェザー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2290_v068_28k_g5k": {
+  "name": "Affectionate Pompom",
+  "kana": "アフェクシャナト・パムパム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2302_v068_28k_g5k": {
+  "name": "Modest Seashell",
+  "kana": "マダスト・シーシェル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2306_v068_28k_g5k": {
+  "name": "Firm Foghorn",
+  "kana": "ファーム・ファグホルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2308_v068_28k_g5k": {
+  "name": "Ironic Bookcase",
+  "kana": "アイラニク・ブクケイス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2350_v068_28k_g5k": {
+  "name": "Urgent Thimble",
+  "kana": "アージャント・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2351_v068_28k_g5k": {
+  "name": "Lovestruck Lantern",
+  "kana": "ラヴズトラク・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2359_v068_28k_g5k": {
+  "name": "Dedicated Stamp",
+  "kana": "デダケイタド・スタムプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2364_v068_28k_g5k": {
+  "name": "Arch Clock",
+  "kana": "アルチ・クラク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2366_v068_28k_g5k": {
+  "name": "Methodical Cobblestone",
+  "kana": "マサダカル・カバルストウン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2374_v068_28k_g5k": {
+  "name": "Savvy Riverbank",
+  "kana": "サヴィー・リヴァーバングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2397_v068_28k_g5k": {
+  "name": "Assured Colander",
+  "kana": "アシュルド・カランダー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2430_v068_28k_g5k": {
+  "name": "Blissful Gumboot",
+  "kana": "ブリスファル・ガムボウオート",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2434_v068_28k_g5k": {
+  "name": "Discreet Key",
+  "kana": "ディスクリート・キー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2447_v068_28k_g5k": {
+  "name": "Empathetic Quilt",
+  "kana": "エムパセティク・クウィルト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2451_v068_28k_g5k": {
+  "name": "Dutiful Boathouse",
+  "kana": "ドーティーファル・ボウトハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2459_v068_28k_g5k": {
+  "name": "Gracious Cushion",
+  "kana": "グレイシャス・クシャン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2468_v068_28k_g5k": {
+  "name": "Nonchalant Clothesline",
+  "kana": "ナンシャラント・クロウズズライン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2471_v068_28k_g5k": {
+  "name": "Nervy Bowtie",
+  "kana": "ナーヴィー・バウタイ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2477_v068_28k_g5k": {
+  "name": "Boisterous Tractor",
+  "kana": "ボイスターアス・トラクター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2498_v068_28k_g5k": {
+  "name": "Genial Custard",
+  "kana": "ジーンヤル・カスタード",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2500_v068_28k_g5k": {
+  "name": "Jaunty Parcel",
+  "kana": "ジョンティー・パルサル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2509_v068_28k_g5k": {
+  "name": "Amazed Puddle",
+  "kana": "アメイズド・パダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2527_v068_28k_g5k": {
+  "name": "Dreamy Postcard",
+  "kana": "ドリーミー・ポウストカルド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2529_v068_28k_g5k": {
+  "name": "Tenderhearted Birch",
+  "kana": "テンダーハルタド・バーチ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2536_v068_28k_g5k": {
+  "name": "Shy Pine",
+  "kana": "シャイ・パイン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2548_v068_28k_g5k": {
+  "name": "Persistent Keel",
+  "kana": "パーシスタント・キール",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2551_v068_28k_g5k": {
+  "name": "Impatient Birdhouse",
+  "kana": "イムペイシャント・バードハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2555_v068_28k_g5k": {
+  "name": "Tender Wave",
+  "kana": "テンダー・ウェイヴ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2571_v068_28k_g5k": {
+  "name": "Gentle Snowdrift",
+  "kana": "ジェンタル・スノウドリフト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2588_v068_28k_g5k": {
+  "name": "Vivacious Loaf",
+  "kana": "ヴァヴェイシャス・ロウフ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2590_v068_28k_g5k": {
+  "name": "Restful Raincloud",
+  "kana": "レストファル・レインクラウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2595_v068_28k_g5k": {
+  "name": "Kindly Driftwood",
+  "kana": "カインドリー・ドリフトウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2682_v068_28k_g5k": {
+  "name": "Breezy Marmalade",
+  "kana": "ブリージー・マルマレイド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2687_v068_28k_g5k": {
+  "name": "Comforting Oven",
+  "kana": "カムファーティング・アヴァン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2694_v068_28k_g5k": {
+  "name": "Stately Sailboat",
+  "kana": "ステイトリー・セイルボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2696_v068_28k_g5k": {
+  "name": "Fussy Washtub",
+  "kana": "ファシー・ワシュタブ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2700_v068_28k_g5k": {
+  "name": "Courtly Banister",
+  "kana": "コルトリー・バニスター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2704_v068_28k_g5k": {
+  "name": "Fervent Dogwood",
+  "kana": "ファーヴァント・ドグウド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0404_v068_28k": {
+  "name": "Giddy Chandelier",
+  "kana": "ギディー・シャンダリル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0411_v068_28k": {
+  "name": "Droll Foghorn",
+  "kana": "ドロウル・ファグホルン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0430_v068_28k": {
+  "name": "Guarded Lilypad",
+  "kana": "ガルダド・リリーパド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0443_v068_28k": {
+  "name": "Starstruck Cauldron",
+  "kana": "スタルストラク・カルドラン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0451_v068_28k": {
+  "name": "Sardonic Bulldozer",
+  "kana": "サルダニク・ブルドウザー",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0453_v068_28k": {
+  "name": "Poised Metronome",
+  "kana": "ポイズド・メトロウノウム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0474_v068_28k": {
+  "name": "Wistful Trunk",
+  "kana": "ウィストファル・トラングク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0482_v068_28k": {
+  "name": "Bashful Candle",
+  "kana": "バシュファル・カンダル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0483_v068_28k": {
+  "name": "Swaggering Lighthouse",
+  "kana": "スワガーイング・ライトハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0484_v068_28k": {
+  "name": "Jubilant Windchime",
+  "kana": "ジューバラント・ウィンドチャイム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep1k_0135_v068_28k_g5k": {
+  "name": "Sympathetic Tugboat",
+  "kana": "シムパセティク・タグボウト",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep1k_0182_v068_28k_g5k": {
+  "name": "Impish Chime",
+  "kana": "イムピシュ・チャイム",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep1k_0397_v068_28k_g5k": {
+  "name": "Rueful Trampoline",
+  "kana": "ルーファル・トラムパリーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep500_0205_v068_28k_g5k": {
+  "name": "Joyful Skateboard",
+  "kana": "ジョイファル・スケイトボルド",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1159_v068_28k_g5k": {
+  "name": "Puzzled Gravel",
+  "kana": "パザルド・グラヴァル",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1716_v068_28k_g5k": {
+  "name": "Scrappy Tightrope",
+  "kana": "スクラピー・タイトロウプ",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1718_v068_28k_g5k": {
+  "name": "Frazzled Platter",
+  "kana": "フラザルド・プラター",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1726_v068_28k_g5k": {
+  "name": "Courteous Bassoon",
+  "kana": "カーティーアス・バスーン",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_1916_v068_28k_g5k": {
+  "name": "Wise Storybook",
+  "kana": "ワイズ・ストリーブク",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2072_v068_28k_g5k": {
+  "name": "Doting Treehouse",
+  "kana": "ドウティング・トリーハウス",
+  "missing": []
+ },
+ "avocado_v2:vd2_r82_rep5k_2201_v068_28k_g5k": {
+  "name": "Courtly Chandelier",
+  "kana": "コルトリー・シャンダリル",
+  "missing": []
+ },
+ "avocado_v2:vg_sg_f703": {
+  "name": "Gutsy Lantern",
+  "kana": "ガトシー・ランターン",
+  "missing": []
+ },
+ "avocado_v2:vg_sg_f521": {
+  "name": "Gregarious Pinwheel",
+  "kana": "グラゲリーアス・ピンウィール",
+  "missing": []
+ },
+ "avocado_v2:vg_sg_f606": {
+  "name": "Glowing Balloon",
+  "kana": "グロウイング・バルーン",
+  "missing": []
+ },
+ "avocado_v2:vg_sg_f448": {
+  "name": "Tickled Snowflake",
+  "kana": "ティカルド・スノウフレイク",
+  "missing": []
+ },
+ "avocado_v2:vg_sg_f531": {
+  "name": "Inquiring Snowglobe",
+  "kana": "インクワイアーイング・スノウグロウブ",
+  "missing": []
+ },
+ "avocado_v2:vg_sg_f711": {
+  "name": "Reflective Locket",
+  "kana": "リフレクティヴ・ラキト",
+  "missing": []
+ },
+ "avocado_v2:vg_my_m58": {
+  "name": "Zestful Raft",
+  "kana": "ゼストファル・ラフト",
+  "missing": []
+ },
+ "avocado_v2:vg_my_m55": {
+  "name": "Storied Lute",
+  "kana": "ストリード・ルート",
+  "missing": []
+ },
+ "avocado_v2:vg_my_m51": {
+  "name": "Giving Oven",
+  "kana": "ギヴィング・アヴァン",
+  "missing": []
+ },
+ "avocado_v2:vg_my_f53": {
+  "name": "Peppy Whistle",
+  "kana": "ペピー・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vg_nz_f15": {
+  "name": "Friendly Windchime",
+  "kana": "フレンドリー・ウィンドチャイム",
+  "missing": []
+ },
+ "avocado_v2:vg_nz_f44": {
+  "name": "Daring Speedboat",
+  "kana": "デリング・スピードボウト",
+  "missing": []
+ },
+ "avocado_v2:vg_nz_f07": {
+  "name": "Bubbling Teaspoon",
+  "kana": "ババリング・ティースプーン",
+  "missing": []
+ },
+ "avocado_v2:vg_nz_f41": {
+  "name": "Rallying Megaphone",
+  "kana": "ラリーイング・メガフォウン",
+  "missing": []
+ },
+ "avocado_v2:vg_nz_f43": {
+  "name": "Chattering Gazebo",
+  "kana": "チャターイング・ガジーボウ",
+  "missing": []
+ },
+ "avocado_v2:vg_ru_f73": {
+  "name": "Awed Harp",
+  "kana": "オード・ハルプ",
+  "missing": []
+ },
+ "avocado_v2:vg_ru_f10": {
+  "name": "Startled Hatbox",
+  "kana": "スタルタルド・ハトバクス",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m41": {
+  "name": "Exhilarated Drum",
+  "kana": "イグジラーエイティド・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m43": {
+  "name": "Pondering Canoe",
+  "kana": "パンダーイング・カヌー",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m28": {
+  "name": "Enthused Chalkboard",
+  "kana": "インスーズド・チャクボルド",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m22": {
+  "name": "Brave Cloud",
+  "kana": "ブレイヴ・クラウド",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m27": {
+  "name": "Mulling Driftwood",
+  "kana": "マリング・ドリフトウド",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m31": {
+  "name": "Rushing Jetty",
+  "kana": "ラシング・ジェティー",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m21": {
+  "name": "Masterful Hull",
+  "kana": "マスターファル・ハル",
+  "missing": []
+ },
+ "avocado_v2:vg_id_m44": {
+  "name": "Vibrant Boulder",
+  "kana": "ヴァイブラント・ボウルダー",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f44": {
+  "name": "Uplifting Chime",
+  "kana": "アプリフティング・チャイム",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f33": {
+  "name": "Wondering Seashell",
+  "kana": "ワンダーイング・シーシェル",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f32": {
+  "name": "Considerate Bell",
+  "kana": "カンシダーアト・ベル",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f25": {
+  "name": "Admiring Portrait",
+  "kana": "アドマイリング・ポルトラト",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f31": {
+  "name": "Thrilled Banner",
+  "kana": "スリルド・バナー",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f08": {
+  "name": "Persistent Pencil",
+  "kana": "パーシスタント・ペンサル",
+  "missing": []
+ },
+ "avocado_v2:vg_id_f37": {
+  "name": "Victorious Rosette",
+  "kana": "ヴィクトリーアス・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m26": {
+  "name": "Musing Chessboard",
+  "kana": "ムユージング・チェスボルド",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m21": {
+  "name": "Questing Planet",
+  "kana": "クウェストイング・プラナト",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m30": {
+  "name": "Motivated Satchel",
+  "kana": "モウタヴェイタド・サッチェル",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m08": {
+  "name": "Tinkering Wrench",
+  "kana": "ティングカーイング・レンチ",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m23": {
+  "name": "Inspiring Gong",
+  "kana": "インスパイリング・ゴング",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m27": {
+  "name": "Lauded Workbench",
+  "kana": "ロディド・ワークベンチ",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m43": {
+  "name": "Nostalgic Photo",
+  "kana": "ノスタルジク・フォウトウ",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m33": {
+  "name": "Hardy Backpack",
+  "kana": "ハルディー・バクパク",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_m29": {
+  "name": "Intent Puzzlebox",
+  "kana": "インテント・パザルバクス",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f23": {
+  "name": "Rhapsodic Bookmark",
+  "kana": "ラプサディク・ブクマルク",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f51": {
+  "name": "Loving Tambourine",
+  "kana": "ラヴィング・タムバーイーン",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f25": {
+  "name": "Cherishing Lamp",
+  "kana": "チェリシング・ラムプ",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f06": {
+  "name": "Convivial Cymbal",
+  "kana": "カンヴィヴィーアル・シムバル",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f04": {
+  "name": "Vivid Firework",
+  "kana": "ヴィヴァド・ファイルワーク",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f29": {
+  "name": "Sunlit Ribbon",
+  "kana": "サンリト・リバン",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f41": {
+  "name": "Thorough Toolbelt",
+  "kana": "サーオウ・トゥールベルト",
+  "missing": []
+ },
+ "avocado_v2:vg_ng_f22": {
+  "name": "Overjoyed Posy",
+  "kana": "オウヴァージョイド・ポージー",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m21": {
+  "name": "Intrepid Ridge",
+  "kana": "イントレパド・リジ",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m43": {
+  "name": "Jovial Rope",
+  "kana": "ジョウヴィーアル・ロウプ",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m25": {
+  "name": "Restful Riverbank",
+  "kana": "レストファル・リヴァーバングク",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m24": {
+  "name": "Studious Trowel",
+  "kana": "ストゥーディーアス・トラウウェル",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m42": {
+  "name": "Charitable Trailer",
+  "kana": "チャラタバル・トレイラー",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m22": {
+  "name": "Welcoming Doorbell",
+  "kana": "ウェルカミング・ドルベル",
+  "missing": []
+ },
+ "avocado_v2:vg_za_m28": {
+  "name": "Vigorous Sailboat",
+  "kana": "ヴィガーアス・セイルボウト",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f34": {
+  "name": "Cheering Pennant",
+  "kana": "チリング・ペナント",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f33": {
+  "name": "Interested Gate",
+  "kana": "イントラスティド・ゲイト",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f21": {
+  "name": "Twinkling Rosebud",
+  "kana": "トウィングカリング・ロウズバド",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f22": {
+  "name": "Excited Suitcase",
+  "kana": "イクサイタド・スートケイス",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f08": {
+  "name": "Perceptive Parcel",
+  "kana": "パーセプティヴ・パルサル",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f32": {
+  "name": "Adventurous Tent",
+  "kana": "アドヴェンチャーアス・テント",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f35": {
+  "name": "Applauding Sprout",
+  "kana": "アプロディング・スプラウト",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f38": {
+  "name": "Elated Piano",
+  "kana": "イレイタド・ピーアノウ",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f04": {
+  "name": "Sparky Trumpet",
+  "kana": "スパルキー・トラムパト",
+  "missing": []
+ },
+ "avocado_v2:vg_za_f31": {
+  "name": "Twirling Carousel",
+  "kana": "トワーリング・ケラセル",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m26": {
+  "name": "Fond Feather",
+  "kana": "ファンド・フェザー",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m49": {
+  "name": "Lucky Oar",
+  "kana": "ラキー・オール",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m48": {
+  "name": "Clapping Bandstand",
+  "kana": "クラピング・バンドスタンド",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m41": {
+  "name": "Carefree Kite",
+  "kana": "ケルフリー・カイト",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m45": {
+  "name": "Absorbed Sapling",
+  "kana": "アブゾルブド・サプリング",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m46": {
+  "name": "Beckoning Bonfire",
+  "kana": "ベカニング・バンファイアー",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_m47": {
+  "name": "Goodhearted Doorway",
+  "kana": "グドハルトエド・ドルウェイ",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f41": {
+  "name": "Summery Parasol",
+  "kana": "サマリー・ペラサル",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f43": {
+  "name": "Aspiring Signboard",
+  "kana": "アスパイリング・サインボルド",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f49": {
+  "name": "Kind Roundabout",
+  "kana": "カインド・ラウンダバウト",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f35": {
+  "name": "Amiable Awning",
+  "kana": "エイミーアバル・アニング",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f48": {
+  "name": "Festive Garland",
+  "kana": "フェスティヴ・ガルランド",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f50": {
+  "name": "Cordial Seawall",
+  "kana": "コルジャル・シーウォル",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f52": {
+  "name": "Humming Flute",
+  "kana": "ハミング・フルート",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f46": {
+  "name": "Devoted Sunhat",
+  "kana": "ディヴォウティド・サンハト",
+  "missing": []
+ },
+ "avocado_v2:vg_tt_f37": {
+  "name": "Fluttering Flag",
+  "kana": "フラターイング・フラグ",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m44": {
+  "name": "Rollicking Shovel",
+  "kana": "ラリキング・シャヴァル",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m25": {
+  "name": "Smitten Nightlight",
+  "kana": "スミタン・ナイトライト",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m30": {
+  "name": "Spellbound Snowfall",
+  "kana": "スペルバウンド・スノウファル",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m41": {
+  "name": "Blissful Bouquet",
+  "kana": "ブリスファル・ブーケイ",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m45": {
+  "name": "Garlanded Racetrack",
+  "kana": "ガルランドエド・レイストラク",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m21": {
+  "name": "Avid Firetruck",
+  "kana": "アヴァド・ファイアートラク",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m36": {
+  "name": "Raring Sled",
+  "kana": "レアリング・スレド",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m24": {
+  "name": "Rapturous Skate",
+  "kana": "ラプチャーアス・スケイト",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m43": {
+  "name": "Rummaging Bucket",
+  "kana": "ラミジング・バカト",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_m32": {
+  "name": "Busy Woodpile",
+  "kana": "ビジー・ウドパイル",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f58": {
+  "name": "Bookish Minibus",
+  "kana": "ブキシュ・ミニーバス",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f65": {
+  "name": "Mystified Raincloud",
+  "kana": "ミスタファイド・レインクラウド",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f44": {
+  "name": "Engrossed Lakeshore",
+  "kana": "イングロウスト・レイクショル",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f63": {
+  "name": "Fascinated Snowshoe",
+  "kana": "ファサネイタド・スノウシュー",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f55": {
+  "name": "Perplexed Sundial",
+  "kana": "パープレクスト・サンダイル",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f49": {
+  "name": "Attentive Rowboat",
+  "kana": "アテンティヴ・ロウボウト",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f51": {
+  "name": "Prospecting Creek",
+  "kana": "プロスペクティング・クリーク",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f23": {
+  "name": "Methodical Album",
+  "kana": "マサダカル・アルバム",
+  "missing": []
+ },
+ "avocado_v2:vg_fi_f64": {
+  "name": "Puttering Accordion",
+  "kana": "パターイング・アコルディーアン",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m22": {
+  "name": "Whirring Bicycle",
+  "kana": "ワーイング・バイシカル",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m21": {
+  "name": "Grateful Farmhouse",
+  "kana": "グレイトファル・ファルムハウス",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m27": {
+  "name": "Ebullient Lagoon",
+  "kana": "イバルヤント・ラグーン",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m28": {
+  "name": "Esteemed Tabletop",
+  "kana": "イスティームド・テイバルタプ",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m46": {
+  "name": "Gratified Terrace",
+  "kana": "グラタファイド・テラス",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m43": {
+  "name": "Fulfilled Millstone",
+  "kana": "フルフィルド・ミルストウン",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m41": {
+  "name": "Thankful Windmill",
+  "kana": "サングクファル・ウィンドミル",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m48": {
+  "name": "Reliable Gate",
+  "kana": "リライアバル・ゲイト",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_m23": {
+  "name": "Supportive Signpost",
+  "kana": "サポルティヴ・サインポウスト",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f44": {
+  "name": "Tireless Whistle",
+  "kana": "タイアーラス・ウィサル",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f29": {
+  "name": "Rejoicing Fountain",
+  "kana": "リジョイシング・ファウンタン",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f36": {
+  "name": "Heartened Archway",
+  "kana": "ハルタンド・アルチウェイ",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f25": {
+  "name": "Purposeful Baton",
+  "kana": "パーパスファル・バタン",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f33": {
+  "name": "Dazzled Lighthouse",
+  "kana": "ダザルド・ライトハウス",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f21": {
+  "name": "Appreciative Garden",
+  "kana": "アプリーシーエイティヴ・ガルダン",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f02": {
+  "name": "Brimming Sailboat",
+  "kana": "ブリミング・セイルボウト",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f32": {
+  "name": "Joyous Bellflower",
+  "kana": "ジョイアス・ベルフラウアー",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f23": {
+  "name": "Brisk Greenhouse",
+  "kana": "ブリスク・グリーンハウス",
+  "missing": []
+ },
+ "avocado_v2:vg_ke_f42": {
+  "name": "Galvanized Drum",
+  "kana": "ガルヴァナイズド・ドラム",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m56": {
+  "name": "Acclaimed Hilltop",
+  "kana": "アクレイムド・ヒルタプ",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m47": {
+  "name": "Hospitable Veranda",
+  "kana": "ハスピタバル・ヴァーアンダ",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m51": {
+  "name": "Riveted Mirror",
+  "kana": "リヴァティド・ミラー",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m53": {
+  "name": "Reunited Suitcase",
+  "kana": "リーウーナイティド・スートケイス",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m44": {
+  "name": "Wowed Lampshade",
+  "kana": "ワウド・ラムプスヘイド",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m41": {
+  "name": "Rapt Seashell",
+  "kana": "ラプト・シーシェル",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m50": {
+  "name": "Waving Flagpole",
+  "kana": "ウェイヴィング・フラグポウル",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m33": {
+  "name": "Stunned Reel",
+  "kana": "スタンド・リール",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_m46": {
+  "name": "Pensive Bench",
+  "kana": "ペンシヴ・ベンチ",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f41": {
+  "name": "Celebrated Rosette",
+  "kana": "セラブレイティド・ラセト",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f21": {
+  "name": "Bountiful Treetop",
+  "kana": "バウンティファル・トリートプ",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f46": {
+  "name": "Thriving Scooter",
+  "kana": "スライヴィング・スクーター",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f43": {
+  "name": "Vivacious Rattle",
+  "kana": "ヴァヴェイシャス・ラタル",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f52": {
+  "name": "Effusive Schoolbell",
+  "kana": "エフユーシヴ・スクールベル",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f48": {
+  "name": "Orchestrating Bugle",
+  "kana": "オールキストレイティング・ブユーガル",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f54": {
+  "name": "Keen Pushcart",
+  "kana": "キーン・プシュカルト",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f58": {
+  "name": "Mustering Convoy",
+  "kana": "マスターイング・カンヴォイ",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f53": {
+  "name": "Scrupulous Moneybox",
+  "kana": "スクループヤラス・マニーバクス",
+  "missing": []
+ },
+ "avocado_v2:vg_zw_f45": {
+  "name": "Uplifted Windowsill",
+  "kana": "アプリフティド・ウィンドウズイル",
+  "missing": []
+ },
+ "avocado_v2:vd_cackling_cauldron": {
+  "name": "Cackling Cauldron",
+  "kana": "カカリング・カルドラン",
+  "missing": []
+ },
+ "avocado_v2:vd_raspy_cypress": {
+  "name": "Imperious Broom",
+  "kana": "イムピリーアス・ブルーム",
+  "missing": []
+ },
+ "avocado_v2:vd_sinister_chalice": {
+  "name": "Brooding Candelabra",
+  "kana": "ブルーディング・カンダラブラ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04433": {
+  "name": "Calming Shawl",
+  "kana": "カミング・ショル",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_00052": {
+  "name": "Sprightly Sprinkler",
+  "kana": "スプライトリー・スプリングクラー",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03766": {
+  "name": "Tactful Blanket",
+  "kana": "タクトファル・ブラングカト",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01332": {
+  "name": "Humming Griddle",
+  "kana": "ハミング・グリドル",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01304": {
+  "name": "Cool Saxophone",
+  "kana": "クール・サクサフォウン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01785": {
+  "name": "Passionate Fiddle",
+  "kana": "パシャナト・フィダル",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03269": {
+  "name": "Dignified Harp",
+  "kana": "ディグナファイド・ハルプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03373": {
+  "name": "Dynamic Drumroll",
+  "kana": "ダイナミク・ドラムロウル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_gentle_balloon": {
+  "name": "Supportive Mitten",
+  "kana": "サポルティヴ・ミタン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03610": {
+  "name": "Creative Paintbox",
+  "kana": "クリーエイティヴ・ペイントバクス",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01739": {
+  "name": "Zesty Confetti",
+  "kana": "ゼスティ・カンフェティー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0244_v068_28k_g5k": {
+  "name": "Upbeat Wagon",
+  "kana": "アプビート・ワガン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2694_v068_28k_g5k": {
+  "name": "Determined Mast",
+  "kana": "ディターマンド・マスト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1084_v068_28k_g5k": {
+  "name": "Peaceful Bluebell",
+  "kana": "ピースファル・ブルーベル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_steady_rudder": {
+  "name": "Steely Sail",
+  "kana": "スティーリー・セイル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0395_v068_28k_g5k": {
+  "name": "Proper Hat",
+  "kana": "プラパー・ハト",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_00494": {
+  "name": "Hospitable Campfire",
+  "kana": "ハスピタバル・カムプファイアー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0103_v068_28k_g5k": {
+  "name": "Thoughtful Bookend",
+  "kana": "ソトファル・ブケンド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0447_v068_28k_g5k": {
+  "name": "Soulful Fountain",
+  "kana": "ソウルファル・ファウンタン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04660": {
+  "name": "Dramatic Tophat",
+  "kana": "ドラマティク・タプハト",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01619": {
+  "name": "Pleasant Daffodil",
+  "kana": "プレザント・ダファディル",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01498": {
+  "name": "Offbeat Bongo",
+  "kana": "オーフビート・バングゴウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_coaxing_seashell": {
+  "name": "Hopeful Tidepool",
+  "kana": "ホウプファル・タイドプール",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0037_v068_28k_g5k": {
+  "name": "Stately Candlestick",
+  "kana": "ステイトリー・カンダルスティク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0400_v068_28k_g5k": {
+  "name": "Zealous Locomotive",
+  "kana": "ゼラス・ロウカモウティヴ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0573_v068_28k_g5k": {
+  "name": "Witty Sandal",
+  "kana": "ウィティー・サンダル",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_00667": {
+  "name": "Tranquil Lake",
+  "kana": "トラングクワル・レイク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_brittle_fan": {
+  "name": "Brisk Skate",
+  "kana": "ブリスク・スケイト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a134_v068_28k_g5k": {
+  "name": "Contented Charm",
+  "kana": "カンテンタド・チャルム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep500_0120_v068_28k_g5k": {
+  "name": "Lyrical Hillside",
+  "kana": "リリカル・ヒルサイド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_jovial_drum": {
+  "name": "Steady Cliff",
+  "kana": "ステディー・クリフ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01409": {
+  "name": "Stoic Stump",
+  "kana": "ストウイク・スタムプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0208_v068_28k_g5k": {
+  "name": "Jaunty Banjo",
+  "kana": "ジョンティー・バンジョウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0579_v068_28k_g5k": {
+  "name": "Decisive Signpost",
+  "kana": "ディサイシヴ・サインポウスト",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_00173": {
+  "name": "Lofty Balcony",
+  "kana": "ロフティー・バルカニー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0529_v068_28k_g5k": {
+  "name": "Poised Podium",
+  "kana": "ポイズド・ポウディーアム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2026_v068_28k_g5k": {
+  "name": "Earnest Inkwell",
+  "kana": "アーニスト・イングクウェル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2157_v068_28k_g5k": {
+  "name": "Savvy Trinket",
+  "kana": "サヴィー・トリングカト",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04055": {
+  "name": "Outgoing Postcard",
+  "kana": "アウトゴウイング・ポウストカルド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0236_v068_28k_g5k": {
+  "name": "Humble Beanbag",
+  "kana": "ハムバル・ビーンバグ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0566_v068_28k_g5k": {
+  "name": "Gregarious Tent",
+  "kana": "グラゲリーアス・テント",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep500_0125_v068_28k_g5k": {
+  "name": "Mild Snowball",
+  "kana": "マイルド・スノウボル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a029_v068_28k_g5k": {
+  "name": "Booming Ship",
+  "kana": "ブーミング・シプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02406": {
+  "name": "Learned Book",
+  "kana": "ラーンド・ブク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_weathered_rope": {
+  "name": "Rugged Boat",
+  "kana": "ラガド・ボウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0382_v068_28k_g5k": {
+  "name": "Sensible Shoe",
+  "kana": "センサバル・シュー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0258_v068_28k_g5k": {
+  "name": "Thrilled Waterslide",
+  "kana": "スリルド・ウォターズライド",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04581": {
+  "name": "Crisp Metronome",
+  "kana": "クリスプ・メトロウノウム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0490_v068_28k_g5k": {
+  "name": "Knowing Sundial",
+  "kana": "ノウイング・サンダイル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0351_v068_28k_g5k": {
+  "name": "Grand Staircase",
+  "kana": "グランド・ステルケイス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_smiling_trunk": {
+  "name": "Grinning Keepsake",
+  "kana": "グリニング・キープセイク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0267_v068_28k_g5k": {
+  "name": "Plainspoken Teapot",
+  "kana": "プレインスポウカン・ティーパト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0628_v068_28k_g5k": {
+  "name": "Zippy Windmill",
+  "kana": "ジピー・ウィンドミル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1969_v068_28k_g5k": {
+  "name": "Bubbly Puddle",
+  "kana": "バブリー・パダル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0590_v068_28k_g5k": {
+  "name": "Sunny Leaf",
+  "kana": "サニー・リーフ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3085_v068_28k_g5k": {
+  "name": "Solid Toolbox",
+  "kana": "サラド・トゥールボクス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0276_v068_28k_g5k": {
+  "name": "Joyous Carousel",
+  "kana": "ジョイアス・ケラセル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_bright_thistle": {
+  "name": "Lively Bellflower",
+  "kana": "ライヴリー・ベルフラウアー",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03300": {
+  "name": "Reflective Moonbeam",
+  "kana": "リフレクティヴ・ムーンビーム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1996_v068_28k_g5k": {
+  "name": "Courtly Clocktower",
+  "kana": "コルトリー・クラクタウアー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0532_v068_28k_g5k": {
+  "name": "Mighty Bullhorn",
+  "kana": "マイティー・ブルホルン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03232": {
+  "name": "Comforting Radiator",
+  "kana": "カムファーティング・レイディーエイター",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03487": {
+  "name": "Direct Toolbelt",
+  "kana": "ダーエクト・トゥールベルト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0463_v068_28k_g5k": {
+  "name": "Warm Scarf",
+  "kana": "ウォルム・スカルフ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0795_v068_28k_g5k": {
+  "name": "Cheery Flag",
+  "kana": "チリー・フラグ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2017_v068_28k_g5k": {
+  "name": "Modest Horseshoe",
+  "kana": "マダスト・ホルスシュー",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03619": {
+  "name": "Leisurely Rowboat",
+  "kana": "リーザーリー・ロウボウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0167_v068_28k_g5k": {
+  "name": "Methodical Pencil",
+  "kana": "マサダカル・ペンサル",
+  "missing": []
+ },
+ "avocado_v2:vd3_pirate-1": {
+  "name": "Goofy Kazoo",
+  "kana": "グーフィー・カズー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0173_v068_28k_g5k": {
+  "name": "Enthusiastic Grill",
+  "kana": "インスージーアスティク・グリル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0179_v068_28k_g5k": {
+  "name": "Sincere Seesaw",
+  "kana": "シンシル・シーソ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0219_v068_28k_g5k": {
+  "name": "Breezy Pinwheel",
+  "kana": "ブリージー・ピンウィール",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01645": {
+  "name": "Patient Plank",
+  "kana": "ペイシャント・プラングク",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04541": {
+  "name": "Mindful Greenhouse",
+  "kana": "マインドファル・グリーンハウス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0374_v068_28k_g5k": {
+  "name": "Bustling Carriage",
+  "kana": "バサリング・カリジ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01247": {
+  "name": "Sweet Fern",
+  "kana": "スウィート・ファーン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02220": {
+  "name": "Lighthearted Swing",
+  "kana": "ライトハルティド・スウィング",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0490_v068_28k_g5k": {
+  "name": "Happy Rocket",
+  "kana": "ハピー・ラカト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2471_v068_28k_g5k": {
+  "name": "Careful Spoon",
+  "kana": "ケルファル・スプーン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0476_v068_28k_g5k": {
+  "name": "Funny Rattle",
+  "kana": "ファニー・ラタル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0370_v068_28k_g5k": {
+  "name": "Smooth Teacup",
+  "kana": "スムーズ・ティーカプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0402_v068_28k_g5k": {
+  "name": "Bright Sneaker",
+  "kana": "ブライト・スニーカー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0077_v068_28k_g5k": {
+  "name": "Easy Deckchair",
+  "kana": "イージー・デクチェル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_2774_v068_28k_g5k": {
+  "name": "Strutting Boot",
+  "kana": "ストラティング・ブート",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02005": {
+  "name": "Floating Lilypad",
+  "kana": "フロウティング・リリーパド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_bristly_pinecone": {
+  "name": "Scrappy Brush",
+  "kana": "スクラピー・ブラシュ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0009_v068_28k_g5k": {
+  "name": "Clear Pond",
+  "kana": "クリル・パンド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0394_v068_28k_g5k": {
+  "name": "Vibrant Volcano",
+  "kana": "ヴァイブラント・ヴァルケイノウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0147_v068_28k_g5k": {
+  "name": "Pleased Skylight",
+  "kana": "プリーズド・スカイライト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_2803_v068_28k_g5k": {
+  "name": "Gentle Raincloud",
+  "kana": "ジェンタル・レインクラウド",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03716": {
+  "name": "Carefree Bandwagon",
+  "kana": "ケルフリー・バンドワガン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_dry_tambour": {
+  "name": "Handy Hammer",
+  "kana": "ハンディー・ハマー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0182_v068_28k_g5k": {
+  "name": "Curious Buttercup",
+  "kana": "クユリーアス・バターカプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0141_v068_28k_g5k": {
+  "name": "Strong Kettledrum",
+  "kana": "ストロング・ケタルドラム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0053_v068_28k_g5k": {
+  "name": "Constant Loch",
+  "kana": "カンスタント・ラク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0369_v068_28k_g5k": {
+  "name": "Settled Lamppost",
+  "kana": "セタルド・ラムプポウスト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0246_v068_28k_g5k": {
+  "name": "Gutsy Skateboard",
+  "kana": "ガトシー・スケイトボルド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0065_v068_28k_g5k": {
+  "name": "Zany Firecracker",
+  "kana": "ゼイニー・ファイアークラカー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0404_v068_28k_g5k": {
+  "name": "Discerning Bookmark",
+  "kana": "ディサーニング・ブクマルク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0757_v068_28k_g5k": {
+  "name": "Wacky Haystack",
+  "kana": "ワキー・ヘイスタク",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_01386": {
+  "name": "Imaginative Crayon",
+  "kana": "イマジャナティヴ・クレイアン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1019_v068_28k_g5k": {
+  "name": "Swift Train",
+  "kana": "スウィフト・トレイン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0420_v068_28k_g5k": {
+  "name": "Cheeky Scissors",
+  "kana": "チーキー・シザーズ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_playful_moon": {
+  "name": "Operatic Violin",
+  "kana": "アパーアティク・ヴァイアリン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2290_v068_28k_g5k": {
+  "name": "Adoring Flower",
+  "kana": "アドリング・フラウアー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep500_0453_v068_28k_g5k": {
+  "name": "Tidy Button",
+  "kana": "タイディー・バタン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02779": {
+  "name": "Formal Pen",
+  "kana": "フォルマル・ペン",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02840": {
+  "name": "Astute Chessboard",
+  "kana": "アストゥート・チェスボルド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a001_v068_28k_g5k": {
+  "name": "Valiant Star",
+  "kana": "ヴァルヤント・スタル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a078_v068_28k_g5k": {
+  "name": "Soft Sweater",
+  "kana": "サフト・スウェター",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0394_v068_28k_g5k": {
+  "name": "Sparky Tinsel",
+  "kana": "スパルキー・ティンサル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0408_v068_28k_g5k": {
+  "name": "Amazed Flowerpot",
+  "kana": "アメイズド・フラウアーパト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2045_v068_28k_g5k": {
+  "name": "Courteous Platter",
+  "kana": "カーティーアス・プラター",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2477_v068_28k_g5k": {
+  "name": "Bold Bulldozer",
+  "kana": "ボウルド・ブルドウザー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0557_v068_28k_g5k": {
+  "name": "Loving Windowsill",
+  "kana": "ラヴィング・ウィンドウズイル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_2644_v068_28k_g5k": {
+  "name": "Benevolent Sapling",
+  "kana": "バネヴァラント・サプリング",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02863": {
+  "name": "Amiable Rollerskate",
+  "kana": "エイミーアバル・ロウラーズケイト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_dusky_tambourine": {
+  "name": "Outspoken Parasol",
+  "kana": "アウトスポウカン・ペラサル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0492_v068_28k_g5k": {
+  "name": "Confident Bassoon",
+  "kana": "カンファダント・バスーン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0508_v068_28k_g5k": {
+  "name": "Adventurous Plane",
+  "kana": "アドヴェンチャーアス・プレイン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2006_v068_28k_g5k": {
+  "name": "Nifty Pliers",
+  "kana": "ニフティー・プライアーズ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep500_0484_v068_28k_g5k": {
+  "name": "Genuine Pendant",
+  "kana": "ジェンヤワン・ペンダント",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_chipper_teapot": {
+  "name": "Zestful Rosebush",
+  "kana": "ゼストファル・ロウズブシュ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1091_v068_28k_g5k": {
+  "name": "Cultured Candelabra",
+  "kana": "カルチャード・カンダラブラ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2171_v068_28k_g5k": {
+  "name": "Twinkly Lampshade",
+  "kana": "トウィングカリー・ラムプスヘイド",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_00887": {
+  "name": "Chill Hoodie",
+  "kana": "チル・フーダイ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02686": {
+  "name": "Affable Lunchbox",
+  "kana": "アファバル・ランチバクス",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03218": {
+  "name": "Efficient Tram",
+  "kana": "イフィシャント・トラム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0139_v068_28k_g5k": {
+  "name": "Agreeable Dandelion",
+  "kana": "アグリーアバル・ダンダライアン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1000_v068_28k_g5k": {
+  "name": "Helpful Shovel",
+  "kana": "ヘルプファル・シャヴァル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1063_v068_28k_g5k": {
+  "name": "Ardent Waterfall",
+  "kana": "アルダント・ウォターフォル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0634_v068_28k_g5k": {
+  "name": "Devoted Earmuff",
+  "kana": "ディヴォウティド・イルマフ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_polished_icicle": {
+  "name": "Shrewd Tiara",
+  "kana": "シュルード・ティーアラ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1083_v068_28k_g5k": {
+  "name": "Glowing Medal",
+  "kana": "グロウイング・メダル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2126_v068_28k_g5k": {
+  "name": "Generous Stockpot",
+  "kana": "ジェナーアス・スタクパト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2359_v068_28k_g5k": {
+  "name": "Dutiful Envelope",
+  "kana": "ドーティーファル・エンヴァロウプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0024_v068_28k_g5k": {
+  "name": "Mirthful Geranium",
+  "kana": "マースフル・ジャーエイニーアム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0073_v068_28k_g5k": {
+  "name": "Sharp Snowshoe",
+  "kana": "シャルプ・スノウシュー",
+  "missing": []
+ },
+ "avocado_v2:vd3_pirate-3": {
+  "name": "Rumbling Cave",
+  "kana": "ラムバリング・ケイヴ",
+  "missing": []
+ },
+ "avocado_v2:vd3_pirate-7": {
+  "name": "Hearty Raft",
+  "kana": "ハルティー・ラフト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_careful_mountain": {
+  "name": "Considerate Hilltop",
+  "kana": "カンシダーアト・ヒルタプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0520_v068_28k_g5k": {
+  "name": "Firm Door",
+  "kana": "ファーム・ドル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0592_v068_28k_g5k": {
+  "name": "Solemn Brownstone",
+  "kana": "サラム・ブラウンストウン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1903_v068_28k_g5k": {
+  "name": "Merry Treetop",
+  "kana": "メリー・トリートプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2700_v068_28k_g5k": {
+  "name": "Gallant Gazebo",
+  "kana": "ガラント・ガジーボウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0392_v068_28k_g5k": {
+  "name": "Protective Overcoat",
+  "kana": "プラテクティヴ・オウヴァーコウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a045_v068_28k_g5k": {
+  "name": "Fearless Snowdrift",
+  "kana": "フィルラス・スノウドリフト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_restless_pinwheel": {
+  "name": "Effusive Creek",
+  "kana": "エフユーシヴ・クリーク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0038_v068_28k_g5k": {
+  "name": "Empathetic Guitar",
+  "kana": "エムパセティク・ギタル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0709_v068_28k_g5k": {
+  "name": "Friendly Windsock",
+  "kana": "フレンドリー・ワインドサク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0561_v068_28k_g5k": {
+  "name": "Clever Puzzlebox",
+  "kana": "クレヴァー・パザルバクス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0443_v068_28k": {
+  "name": "Hardy Kettlebell",
+  "kana": "ハルディー・ケタルベル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3420_v068_28k_g5k": {
+  "name": "Reliable Tree",
+  "kana": "リライアバル・トリー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2253_v068_28k_g5k": {
+  "name": "Chuckling Twig",
+  "kana": "チャクリング・トウィグ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0557_v068_28k_g5k": {
+  "name": "Excitable Globe",
+  "kana": "イクサイタバル・グロウブ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0051_v068_28k_g5k": {
+  "name": "Ready Lifeboat",
+  "kana": "レディー・ライフボウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0497_v068_28k_g5k": {
+  "name": "Expressive Marquee",
+  "kana": "イクスプレシヴ・マルキー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0528_v068_28k_g5k": {
+  "name": "Smiling Sun",
+  "kana": "スマイリング・サン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0756_v068_28k_g5k": {
+  "name": "Daring Skyscraper",
+  "kana": "デリング・スカイスクレイパー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0736_v068_28k_g5k": {
+  "name": "Dedicated Window",
+  "kana": "デダケイタド・ウィンドウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0558_v068_28k_g5k": {
+  "name": "Kindhearted Elm",
+  "kana": "カインドハルタド・エルム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2127_v068_28k_g5k": {
+  "name": "Principled Glove",
+  "kana": "プリンサパルド・グラヴ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2595_v068_28k_g5k": {
+  "name": "Intense Buoy",
+  "kana": "インテンス・ブーイー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0048_v068_28k_g5k": {
+  "name": "Zooming Car",
+  "kana": "ズーミング・カル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0547_v068_28k_g5k": {
+  "name": "Insightful Chime",
+  "kana": "インサイトファル・チャイム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a006_v068_28k_g5k": {
+  "name": "Earthy Scarecrow",
+  "kana": "アーシー・スカルクロウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3363_v068_28k_g5k": {
+  "name": "Sage Planet",
+  "kana": "セイジ・プラナト",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02303": {
+  "name": "Peaceable Rosebud",
+  "kana": "ピーサバル・ロウズバド",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04656": {
+  "name": "Engaging Tealight",
+  "kana": "エンゲイジング・ティーライト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0484_v068_28k": {
+  "name": "Overjoyed Bauble",
+  "kana": "オウヴァージョイド・ボバル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0077_v068_28k_g5k": {
+  "name": "Trusty Handrail",
+  "kana": "トラスティー・ハンドレイル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0417_v068_28k_g5k": {
+  "name": "Laughing Cardigan",
+  "kana": "ラフィング・カルディガン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0629_v068_28k_g5k": {
+  "name": "Regal Jacaranda",
+  "kana": "リーガル・ジャクアーアンダ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2350_v068_28k_g5k": {
+  "name": "Energetic Cauldron",
+  "kana": "エナージェティク・カルドラン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0083_v068_28k_g5k": {
+  "name": "Reassuring Raincoat",
+  "kana": "リーアシュリング・レインコウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0270_v068_28k_g5k": {
+  "name": "Bemused Slipper",
+  "kana": "ビムユーズド・スリパー",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0325_v068_28k_g5k": {
+  "name": "Jocular Backpack",
+  "kana": "ジャクヤラー・バクパク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a025_v068_28k_g5k": {
+  "name": "Delighted Toadstool",
+  "kana": "ディライタド・トウドズトゥール",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_03450": {
+  "name": "Focused Sketchbook",
+  "kana": "フォウカスト・スケチブク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_fiery_throne": {
+  "name": "Commanding Crown",
+  "kana": "カマンディング・クラウン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_indignant_ladle": {
+  "name": "Thrifty Crate",
+  "kana": "スリフティー・クレイト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_muted_puddle": {
+  "name": "Gravelly Cattail",
+  "kana": "グラヴァリー・カトエイル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_poised_ripple": {
+  "name": "Vivacious Wave",
+  "kana": "ヴァヴェイシャス・ウェイヴ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0030_v068_28k_g5k": {
+  "name": "Folksy Wheelbarrow",
+  "kana": "フォウクシー・ウィールベロウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0166_v068_28k_g5k": {
+  "name": "Dapper Coat",
+  "kana": "ダパー・コウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0244_v068_28k_g5k": {
+  "name": "Tough Truck",
+  "kana": "タフ・トラク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0364_v068_28k_g5k": {
+  "name": "Electric Squall",
+  "kana": "イレクトリク・スクウォル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0454_v068_28k_g5k": {
+  "name": "Honest Jar",
+  "kana": "アナスト・ジャル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2181_v068_28k_g5k": {
+  "name": "Triumphant Gourd",
+  "kana": "トライアムファント・ゴルド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2248_v068_28k_g5k": {
+  "name": "Debonair Shell",
+  "kana": "デバネル・シェル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2306_v068_28k_g5k": {
+  "name": "Emphatic Mallet",
+  "kana": "エムファティク・マリト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0219_v068_28k_g5k": {
+  "name": "Vivid Portrait",
+  "kana": "ヴィヴァド・ポルトラト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0339_v068_28k_g5k": {
+  "name": "Fiery Thundercloud",
+  "kana": "ファイアーイー・サンダークラウド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0477_v068_28k_g5k": {
+  "name": "Chipper Pier",
+  "kana": "チパー・ピル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0777_v068_28k_g5k": {
+  "name": "Chirpy Piccolo",
+  "kana": "チャーピー・ピカロウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep500_a021_v068_28k_g5k": {
+  "name": "Heroic Monument",
+  "kana": "ヒロウイク・マンユーマント",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3130_v068_28k_g5k": {
+  "name": "Worldly Map",
+  "kana": "ワールドリー・マプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3270_v068_28k_g5k": {
+  "name": "Content Sunbeam",
+  "kana": "カンテント・サンビーム",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_rumbling_gate": {
+  "name": "Sturdy Drawbridge",
+  "kana": "スターディー・ドロブリジ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_02792": {
+  "name": "Polite Handkerchief",
+  "kana": "パライト・ハングカーチフ",
+  "missing": []
+ },
+ "avocado_v2:vd3_qvd_04161": {
+  "name": "Plain Brick",
+  "kana": "プレイン・ブリク",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_dry_fencepost": {
+  "name": "Candid Croft",
+  "kana": "カンダド・クロフト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_exuberant_chime": {
+  "name": "Tickled Sequin",
+  "kana": "ティカルド・シークワン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_fierce_whistle": {
+  "name": "Brave Umbrella",
+  "kana": "ブレイヴ・アムブレラ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_gleeful_sail": {
+  "name": "Nimble Rope",
+  "kana": "ニムバル・ロウプ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_grand_teakettle": {
+  "name": "Proud Garden",
+  "kana": "プラウド・ガルダン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0101_v068_28k_g5k": {
+  "name": "Restful Hill",
+  "kana": "レストファル・ヒル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_0451_v068_28k": {
+  "name": "Thunderous Tractor",
+  "kana": "サンダーアス・トラクター",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep500_a005_v068_28k_g5k": {
+  "name": "Noble Helmet",
+  "kana": "ノウバル・ヘルマト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0088_v068_28k_g5k": {
+  "name": "Practical Spatula",
+  "kana": "プラクタカル・スパチュラ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0135_v068_28k_g5k": {
+  "name": "Cheering Megaphone",
+  "kana": "チリング・メガフォウン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0142_v068_28k_g5k": {
+  "name": "Awed Snowfall",
+  "kana": "オード・スノウファル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0160_v068_28k_g5k": {
+  "name": "Shy Snowman",
+  "kana": "シャイ・スノウマン",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0421_v068_28k_g5k": {
+  "name": "Competent Tote",
+  "kana": "カムパティント・トウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0597_v068_28k_g5k": {
+  "name": "Busy Basket",
+  "kana": "ビジー・バスカト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0654_v068_28k_g5k": {
+  "name": "Welcoming House",
+  "kana": "ウェルカミング・ハウス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_0686_v068_28k_g5k": {
+  "name": "Chatty Bus",
+  "kana": "チャティー・バス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_1391_v068_28k_g5k": {
+  "name": "Festive Gift",
+  "kana": "フェスティヴ・ギフト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r82_rep5k_2074_v068_28k_g5k": {
+  "name": "Prankish Domino",
+  "kana": "プラングクイシュ・ダマノウ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0007_v068_28k_g5k": {
+  "name": "Purposeful Paddle",
+  "kana": "パーパスファル・パダル",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0153_v068_28k_g5k": {
+  "name": "Peppy Speedboat",
+  "kana": "ペピー・スピードボウト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0199_v068_28k_g5k": {
+  "name": "Quick Cactus",
+  "kana": "クウィク・カクタス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_0240_v068_28k_g5k": {
+  "name": "Dependable Birch",
+  "kana": "ディペンダバル・バーチ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep1k_a030_v068_28k_g5k": {
+  "name": "Tenacious Island",
+  "kana": "タネイシャス・アイランド",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3083_v068_28k_g5k": {
+  "name": "Skillful Shoelace",
+  "kana": "スキルファル・シューレイス",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3278_v068_28k_g5k": {
+  "name": "Robust Bridge",
+  "kana": "ロウバスト・ブリジ",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_r8_rep5k_3492_v068_28k_g5k": {
+  "name": "Glad Kite",
+  "kana": "グラド・カイト",
+  "missing": []
+ },
+ "avocado_v2:vd3_vd2_wandering_hammock": {
+  "name": "Casual Boardwalk",
+  "kana": "カジャワル・ボルドウォク",
+  "missing": []
+ },
+ "avocado_v2:personas3_026_ghost": {
+  "name": "Wistful Locket",
+  "kana": "ウィストファル・ラキト",
+  "missing": []
+ },
+ "avocado_v2:personas3_029_haunted_doll": {
+  "name": "Cheeky Kazoo",
+  "kana": "チーキー・カズー",
+  "missing": []
+ },
+ "avocado_v2:pb1_magical_10": {
+  "name": "Thoughtful Moon",
+  "kana": "ソトファル・ムーン",
+  "missing": []
+ },
+ "avocado_v2:pb1_hero_01": {
+  "name": "Gallant Banner",
+  "kana": "ガラント・バナー",
+  "missing": []
+ },
+ "avocado_v2:pb1_villain_11": {
+  "name": "Theatrical Cape",
+  "kana": "シーアトリカル・ケイプ",
+  "missing": []
+ },
+ "avocado_v2:pb1_cartoon_08": {
+  "name": "Jolly Balloon",
+  "kana": "ジャリー・バルーン",
+  "missing": []
+ },
+ "avocado_v2:pb1_android_06": {
+  "name": "Deadpan Clock",
+  "kana": "デドパン・クラク",
+  "missing": []
+ },
+ "avocado_v2:pb1_formal_00": {
+  "name": "Gracious Teapot",
+  "kana": "グレイシャス・ティーパト",
+  "missing": []
+ },
+ "avocado_v2:pb1_music_02": {
+  "name": "Hearty Oar",
+  "kana": "ハルティー・オール",
+  "missing": []
+ },
+ "avocado_v2:goofy_clown": {
+  "name": "Playful Unicycle",
+  "kana": "プレイファル・ユーナサイカル",
+  "missing": []
+ },
+ "avocado_v2:lady_ghost": {
+  "name": "Stately Chandelier",
+  "kana": "ステイトリー・シャンダリル",
+  "missing": []
+ },
+ "avocado_v2:crypt_keeper": {
+  "name": "Charming Key",
+  "kana": "チャルミング・キー",
+  "missing": []
+ }
+}
