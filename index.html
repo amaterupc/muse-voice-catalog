@@ -166,7 +166,7 @@ function render() {
   el('count').textContent = list.length + ' 件 / 全' + VOICES.length + '件';
   el('empty').hidden = list.length > 0;
   el('list').innerHTML = list.map(v => {
-    const badge = PODCAST[v.id] ? '<span class="badge">🎙 ポッドキャスト使用声（' + PODCAST[v.id] + '）</span>' : '';
+    const badge = '';
     const seg = v.seg ? fmt(v.seg[0]) + ' – ' + fmt(v.seg[1]) : '区間なし';
     const play = v.seg ? '<button class="play primary" type="button" data-id="' + esc(v.id) + '">▶ 試聴</button>' : '';
     const rate = '評価 美しさ ' + v.aesthetics_mean + ' / 再現度 ' + v.adherence_mean;
