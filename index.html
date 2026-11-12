@@ -51,6 +51,18 @@ h1{font-size:1.4rem;margin:8px 0}
 .idcopy{margin-top:auto;font-family:ui-monospace,monospace;font-size:.72rem;word-break:break-all;text-align:left;padding:8px;background:#f2f4f8}
 #empty{color:#586174;padding:24px 0}
 footer{max-width:1100px;margin:0 auto;padding:0 16px 28px;color:#586174;font-size:.82rem}
+.mapsec{margin:0 0 14px}
+.maphead{display:flex;gap:8px;align-items:stretch}
+#map-toggle{flex:1;display:flex;justify-content:space-between;align-items:center;gap:8px;text-align:left;font-weight:600}
+.mapsel{color:#175cd3;font-weight:600;font-size:.88rem}
+#map-clear{flex:none}
+#map-body{margin-top:10px}
+#map-panel{background:white;border:1px solid #dce1ea;border-radius:12px;padding:10px 6px 2px}
+#map-panel svg{width:100%;height:auto;display:block}
+#map-panel .cell{cursor:pointer}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.chip{border-radius:999px}
+.chip.on{background:#175cd3;color:white;border-color:#175cd3}
 </style>
 </head>
 <body>
@@ -95,6 +107,17 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 28px;color:#586174;font-siz
     <button id="jp-btn" type="button">日本語アクセントのみ</button>
     <span id="count"></span>
   </section>
+  <section class="mapsec">
+    <div class="maphead">
+      <button id="map-toggle" type="button" aria-expanded="false"><span>スコアマップで絞り込む</span><span class="mapsel" id="map-sel"></span><span id="map-chev">▸</span></button>
+      <button id="map-clear" type="button" hidden>解除</button>
+    </div>
+    <div id="map-body" hidden>
+      <p class="note">美しさ × 再現度の分布です。円の大きさ＝声の数。円をタップすると、そのマスの声だけが下に並びます（再タップで解除）。件数は現在の絞り込み（検索・性別・アクセント・トーン・年代）に連動します。</p>
+      <div id="map-panel"></div>
+      <div class="chips"><button class="chip" id="noscore-btn" type="button">スコアなし：<span id="noscore-count">0</span>件</button></div>
+    </div>
+  </section>
   <div id="list"></div>
   <div id="empty" hidden>条件に合う声がありません。</div>
 </main>
@@ -132,7 +155,7 @@ async function loadData() {
       fetch('names_kana.json').then(r => r.json())
     ]);
     const SEG = s.segments || {};
-    VOICES = v.map((x, i) => ({ ...x, num: i + 1, kana: (k[x.id] || {}).kana || '', seg: SEG[x.id] || null, ageGroup: ageGroupOf(x.long_description) }));
+    VOICES = v.map((x, i) => ({ ...x, num: i + 1, kana: (k[x.id] || {}).kana || '', seg: SEG[x.id] || null, ageGroup: ageGroupOf(x.long_description), aeKey: (x.aesthetics_mean == null ? null : Math.round(x.aesthetics_mean * 100) / 100), adKey: (x.adherence_mean == null ? null : Math.round(x.adherence_mean * 100) / 100) }));
     buildFilters();
     render();
   } catch (e) {
@@ -147,10 +170,13 @@ function buildFilters() {
   el('f-tone').innerHTML = '<option value="">トーン：すべて</option>' + tones.map(t => '<option value="' + esc(t) + '">' + esc(t) + '</option>').join('');
 }
 
-function getFiltered() {
+let scoreFilter = null; // null | 'none' | {ae, ad}
+let mapOpen = false;
+
+function baseFiltered() {
   const q = el('q').value.trim().toLowerCase();
   const g = el('f-gender').value, a = el('f-accent').value, t = el('f-tone').value, ag = el('f-age').value;
-  let list = VOICES.filter(v => {
+  return VOICES.filter(v => {
     if (g && v.gender !== g) return false;
     if (a && v.accent !== a) return false;
     if (t && v.tone !== t) return false;
@@ -162,22 +188,30 @@ function getFiltered() {
     }
     return true;
   });
+}
+
+function applyScoreAndSort(base) {
+  let list = base.slice();
+  if (scoreFilter === 'none') list = list.filter(v => v.aeKey === null || v.adKey === null);
+  else if (scoreFilter) list = list.filter(v => v.aeKey === scoreFilter.ae && v.adKey === scoreFilter.ad);
   const sort = el('f-sort').value;
-  if (sort === 'rating') list.sort((x, y) => ((y.aesthetics_mean + y.adherence_mean) - (x.aesthetics_mean + x.adherence_mean)) || (x.num - y.num));
+  if (sort === 'rating') list.sort((x, y) => (((y.aesthetics_mean || 0) + (y.adherence_mean || 0)) - ((x.aesthetics_mean || 0) + (x.adherence_mean || 0))) || (x.num - y.num));
   else if (sort === 'name') list.sort((x, y) => x.name.localeCompare(y.name) || (x.num - y.num));
   else list.sort((x, y) => x.num - y.num);
   return list;
 }
 
 function render() {
-  const list = getFiltered();
+  const base = baseFiltered();
+  const list = applyScoreAndSort(base);
+  updateMapUI(base);
   el('count').textContent = list.length + ' 件 / 全' + VOICES.length + '件';
   el('empty').hidden = list.length > 0;
   el('list').innerHTML = list.map(v => {
     const badge = '';
     const seg = v.seg ? fmt(v.seg[0]) + ' – ' + fmt(v.seg[1]) : '区間なし';
     const play = v.seg ? '<button class="play primary" type="button" data-id="' + esc(v.id) + '">▶ 試聴</button>' : '';
-    const rate = '評価 美しさ ' + v.aesthetics_mean + ' / 再現度 ' + v.adherence_mean;
+    const rate = (v.aeKey === null || v.adKey === null) ? '評価 スコアなし' : '評価 美しさ ' + v.aesthetics_mean + ' / 再現度 ' + v.adherence_mean;
     return '<article class="card">'
       + '<div class="chead"><span class="num">#' + v.num + ' / ' + VOICES.length + '</span>' + badge + '</div>'
       + '<h3>' + esc(v.name) + ' <span class="kana">' + esc(v.kana) + '</span></h3>'
@@ -189,6 +223,81 @@ function render() {
       + '</article>';
   }).join('');
 }
+
+function updateMapUI(base) {
+  const noScore = base.filter(v => v.aeKey === null || v.adKey === null).length;
+  el('noscore-count').textContent = noScore;
+  el('noscore-btn').classList.toggle('on', scoreFilter === 'none');
+  el('map-sel').textContent = scoreFilter === 'none' ? 'スコアなしを選択中' : scoreFilter ? '美しさ ' + scoreFilter.ae + ' × 再現度 ' + scoreFilter.ad + ' を選択中' : '';
+  el('map-clear').hidden = !scoreFilter;
+  if (mapOpen) renderMap(base);
+}
+
+function renderMap(base) {
+  const counts = new Map();
+  base.forEach(v => {
+    if (v.aeKey === null || v.adKey === null) return;
+    const key = v.aeKey + '|' + v.adKey;
+    counts.set(key, (counts.get(key) || 0) + 1);
+  });
+  const xs = [...new Set(VOICES.map(v => v.aeKey).filter(x => x !== null))].sort((a, b) => a - b);
+  const ys = [...new Set(VOICES.map(v => v.adKey).filter(x => x !== null))].sort((a, b) => b - a);
+  const maxC = Math.max(1, ...counts.values());
+  const W = 392, H = 300, L = 44, R = 10, T = 14, B = 34;
+  const cw = (W - L - R) / xs.length, ch = (H - T - B) / ys.length;
+  let s = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="美しさと再現度の分布図">';
+  ys.forEach((y, j) => {
+    const cy = T + ch * j + ch / 2;
+    s += '<text x="' + (L - 6) + '" y="' + (cy + 4) + '" font-size="11" fill="#586174" text-anchor="end">' + y + '</text>';
+    s += '<line x1="' + L + '" y1="' + (T + ch * j) + '" x2="' + (W - R) + '" y2="' + (T + ch * j) + '" stroke="#eef1f6"/>';
+  });
+  xs.forEach((x, i) => {
+    const cx = L + cw * i + cw / 2;
+    s += '<text x="' + cx + '" y="' + (H - 16) + '" font-size="10.5" fill="#586174" text-anchor="middle">' + x + '</text>';
+    s += '<line x1="' + (L + cw * i) + '" y1="' + T + '" x2="' + (L + cw * i) + '" y2="' + (H - B) + '" stroke="#eef1f6"/>';
+  });
+  counts.forEach((c, key) => {
+    const parts = key.split('|');
+    const x = parseFloat(parts[0]), y = parseFloat(parts[1]);
+    const cx = L + cw * xs.indexOf(x) + cw / 2, cy = T + ch * ys.indexOf(y) + ch / 2;
+    const r = 5 + 13 * Math.sqrt(c / maxC);
+    const sel = scoreFilter && scoreFilter !== 'none' && scoreFilter.ae === x && scoreFilter.ad === y;
+    s += '<g class="cell" data-ae="' + x + '" data-ad="' + y + '">'
+      + '<circle cx="' + cx + '" cy="' + cy + '" r="' + r + '" fill="' + (sel ? '#175cd3' : '#bcd2f7') + '" fill-opacity="' + (sel ? 1 : 0.8) + '" stroke="' + (sel ? '#0b3d91' : '#8fb0ea') + '" stroke-width="' + (sel ? 2.5 : 1) + '"/>'
+      + '<text x="' + cx + '" y="' + (cy + 4) + '" font-size="' + (r >= 11 ? 12 : 10) + '" fill="' + (sel || r >= 11 ? '#ffffff' : '#38435a') + '" text-anchor="middle" font-weight="600">' + c + '</text></g>';
+  });
+  s += '<text x="' + ((L + W - R) / 2) + '" y="' + (H - 2) + '" font-size="11" fill="#38435a" text-anchor="middle">美しさ →</text>';
+  s += '<text x="12" y="' + ((T + H - B) / 2) + '" font-size="11" fill="#38435a" text-anchor="middle" transform="rotate(-90 12 ' + ((T + H - B) / 2) + ')">再現度 →</text>';
+  s += '</svg>';
+  el('map-panel').innerHTML = s;
+}
+
+el('map-toggle').addEventListener('click', () => {
+  mapOpen = !mapOpen;
+  el('map-body').hidden = !mapOpen;
+  el('map-chev').textContent = mapOpen ? '▾' : '▸';
+  el('map-toggle').setAttribute('aria-expanded', mapOpen ? 'true' : 'false');
+  if (mapOpen) renderMap(baseFiltered());
+});
+el('map-panel').addEventListener('click', e => {
+  const g = e.target.closest('[data-ae]');
+  if (!g) return;
+  const ae = parseFloat(g.dataset.ae), ad = parseFloat(g.dataset.ad);
+  if (scoreFilter && scoreFilter !== 'none' && scoreFilter.ae === ae && scoreFilter.ad === ad) scoreFilter = null;
+  else {
+    scoreFilter = { ae, ad };
+    if (typeof gtag === 'function') gtag('event', 'score_map_select', { aesthetics: ae, adherence: ad });
+  }
+  render();
+});
+el('noscore-btn').addEventListener('click', () => {
+  scoreFilter = scoreFilter === 'none' ? null : 'none';
+  render();
+});
+el('map-clear').addEventListener('click', () => {
+  scoreFilter = null;
+  render();
+});
 
 function clearUnmuteTimers() { unmuteTimers.forEach(clearTimeout); unmuteTimers = []; }
 function scheduleUnmute() {
