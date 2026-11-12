@@ -49,6 +49,7 @@ h1{font-size:1.4rem;margin:8px 0}
 .seg{font-size:.85rem;color:#38435a}
 .rate{font-size:.8rem;color:#586174}
 .idcopy{margin-top:auto;font-family:ui-monospace,monospace;font-size:.72rem;word-break:break-all;text-align:left;padding:8px;background:#f2f4f8}
+.ttsreq{font-size:.82rem;padding:8px;background:#fdf6e9;border-color:#d9b45b}
 #empty{color:#586174;padding:24px 0}
 footer{max-width:1100px;margin:0 auto;padding:0 16px 28px;color:#586174;font-size:.82rem}
 .mapsec{margin:0 0 14px}
@@ -80,7 +81,7 @@ footer{max-width:1100px;margin:0 auto;padding:0 16px 28px;color:#586174;font-siz
 </header>
 <main>
   <h1>Muse 声カタログ（全1,202声）</h1>
-  <p class="note">各声のサンプルを、1本のYouTube動画（限定公開）の区間再生で試聴できます。サンプル文：「私は○○です。とろけるようなひとときを、私の声でお届けできたらうれしいです。」声IDをタップするとコピーできます。</p>
+  <p class="note">各声のサンプルを、1本のYouTube動画（限定公開）の区間再生で試聴できます。サンプル文：「私は○○です。とろけるようなひとときを、私の声でお届けできたらうれしいです。」声IDをタップするとコピーできます。自分の文章を読ませたいときは、カードの「読み上げ依頼をコピー」を押して、Museのチャットに貼り、文章を書き加えて送ってください。</p>
   <section class="controls">
     <input id="q" type="search" placeholder="名前・カタカナ・説明・声IDで検索">
     <select id="f-gender">
@@ -220,6 +221,7 @@ function render() {
       + '<div class="rate">' + rate + '</div>'
       + '<div class="row">' + play + '<span class="seg">' + seg + '</span></div>'
       + '<button class="idcopy" type="button" data-id="' + esc(v.id) + '" title="タップでコピー">' + esc(v.id) + ' ⧉</button>'
+      + '<button class="ttsreq" type="button" data-id="' + esc(v.id) + '">この声で読み上げ依頼をコピー</button>'
       + '</article>';
   }).join('');
 }
@@ -349,11 +351,40 @@ function playVoice(v) {
   }
 }
 
+function copyText(text, doneMsg) {
+  const done = ok => setStatus(ok ? doneMsg : 'コピーに失敗しました');
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(text).then(() => done(true)).catch(() => fallbackCopy(text, done));
+  } else fallbackCopy(text, done);
+}
+function fallbackCopy(text, done) {
+  try {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed'; ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    const ok = document.execCommand('copy');
+    document.body.removeChild(ta);
+    done(ok);
+  } catch (e) { done(false); }
+}
+
 el('list').addEventListener('click', e => {
   const playBtn = e.target.closest('.play');
   if (playBtn) {
     const v = VOICES.find(x => x.id === playBtn.dataset.id);
     if (v && v.seg) playVoice(v);
+    return;
+  }
+  const reqBtn = e.target.closest('.ttsreq');
+  if (reqBtn) {
+    const v = VOICES.find(x => x.id === reqBtn.dataset.id);
+    if (v) {
+      const text = '読み上げ依頼\n声: #' + v.num + ' ' + v.name + '（' + v.id + '）\n文章: ここに読み上げたい文章を書いてください';
+      if (typeof gtag === 'function') gtag('event', 'tts_request_copy', { voice_id: v.id, voice_name: v.name, voice_num: v.num });
+      copyText(text, '読み上げ依頼をコピーしました。Museのチャットに貼って、文章を書き加えてください');
+    }
     return;
   }
   const idBtn = e.target.closest('.idcopy');
